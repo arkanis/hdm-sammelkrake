@@ -1,0 +1,43 @@
+body { margin: 0; padding: 0; }
+header { margin: 0; padding: 0; color: white; background: #db0031; }
+
+body { font-size: small; font-family: sans-serif; }
+
+header { margin: 0; padding: 1em; box-shadow: 0 0 5px black; }
+header > h1 { margin: 0; padding: 0; }
+header > h1 > a { color: inherit; text-decoration: none; }
+header > h1 > a:hover, header > h1 > a:focus, header > h1 > a:active { text-decoration: underline; }
+header > p { margin: 0; padding: 0; }
+
+
+section { margin: 10px 0 0 10px; padding: 10px; position: relative; }
+article { position: absolute; display: none; overflow: auto; border-radius: 5px; border: hsl(0, 75%, 25%) 1px solid; }
+
+/*
+article { width: 300px; height: 200px;   }
+article#official-news { left: 0; top: 0; }
+article#official-infos { left: 0; top: 220px; }
+article#schedule { width: 620px; height: 420px; left: 320px; top: 0; }
+
+article#project-activities { display: none; }
+article#students-stuff { display: none; }
+article#messi { display: none; }
+article#events { display: none; }
+article#recordings { display: none; }
+article#publications { display: none; }
+*/
+
+article { background: hsl(140, 50%, 80%); }
+article.official { color: white; background: #db0031; }
+article > h2 { font-size: inherit; margin: 0; padding: 0; }
+article > ul { margin: 0.5em 0 0.5em 1em; padding: 0; }
+
+article#schedule table { width: 610px; table-layout: fixed; border-collapse: collapse; }
+article#schedule table tr > *:nth-child(1) { width: 45px; }
+article#schedule table tr > *:nth-child(1n + 2) { width: 90px; }
+article#schedule table td a { display: block; width: 88px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: inherit; }
+
+article#schedule table tr:nth-child(1n + 2) { height: 2.75em; }
+article#schedule table tr:nth-child(5) td { background: hsla(0, 0%, 0%, 0.05); }
+article#schedule table tr > th:first-child { text-align: right; font-weight: normal; }
+article#schedule table td { padding: 1px; border: 1px solid hsl(0, 75%, 65%); }
