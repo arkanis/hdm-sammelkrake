@@ -9,7 +9,7 @@
 		header a { color: inherit; }
 		header h1, header p { margin: 0; padding: 0; }
 		
-		ul { margin: 0; padding: 0; list-style: none; border: 1px solid red; position: relative; background: url('grid.png'); min-height: 500px; }
+		ul { margin: 0; padding: 0; list-style: none; border: 1px solid red; position: relative; background: url('grid.png'); }
 		ul > li { display: none; }
 		ul > div { position: absolute; width: 100px; height: 100px; box-sizing: border-box; padding: 10px; text-align: center; }
 		/*
@@ -21,15 +21,23 @@
 	<script src="jquery-1.7.2.js"></script>
 	<script>
 		
-		function Grid(elem, cell_width, cell_height){
-			var grid_width = 0;
+		jQuery.fn.grid = function(options){
+			var opts = jQuery.extend({
+				'cell-width': 100,
+				'cell-height': 100,
+				'cell-spacing': 10,
+				weights: { edge: 0.25, left: 1, right: 1, top: 0.5, bottom: 0.5 }
+			});
+			var context = this;
+			
 			var cells = [];
-			var weights = { edge: 0.25, left: 1, right: 1, top: 0.5, bottom: 0.5 };
+			var grid_width = 0, grid_height = 0;
 			
 			// Returns the grid value for the specified cell
 			var at = function(x, y){
 				return cells[y * grid_width + x];
 			};
+			
 			// Increments the value at the specified cell if it contains nothing (undefined)
 			// or a number. In any other case (e.g. string IDs) the cell is left unchanged.
 			var inc_at = function(x, y, val){
@@ -42,6 +50,7 @@
 					weight += val;
 				cells[y * grid_width + x] = weight;
 			};
+			
 			// Sets the value for each cell in the specified rectangle
 			var set_rect = function(x, y, w, h, val){
 				if (x < 0) x = 0;
@@ -54,6 +63,7 @@
 					}
 				}
 			};
+			
 			// Searches a free rectangle near these x and y coords.
 			var refine_pos = function(x, y, w, h){
 				var check_rect = function(x1, y1, x2, y2){
@@ -80,93 +90,89 @@
 				else if ( check_rect(x, y, x+dx, y+dy) )
 					return {x: x, y: y};
 				return false;
-			}
+			};
+			
 			// Updates the weights around the rectangle. You can configure the
 			// weights via the `weights` variable above.
 			var update_weights = function(x, y, w, h){
-				inc_at(x - 1, y - 1, weights.edge);
-				inc_at(x + w, y - 1, weights.edge);
-				inc_at(x + w, y + h, weights.edge);
-				inc_at(x - 1, y + h, weights.edge);
+				inc_at(x - 1, y - 1, opts.weights.edge);
+				inc_at(x + w, y - 1, opts.weights.edge);
+				inc_at(x + w, y + h, opts.weights.edge);
+				inc_at(x - 1, y + h, opts.weights.edge);
 				
 				for(var i = x; i < x + w; i++){
-					inc_at(i, y - 1, weights.top);
-					inc_at(i, y + h, weights.bottom);
+					inc_at(i, y - 1, opts.weights.top);
+					inc_at(i, y + h, opts.weights.bottom);
 				}
 				
 				for(var i = y; i < y + h; i++){
-					inc_at(x - 1, i, weights.left);
-					inc_at(x + w, i, weights.right);
+					inc_at(x - 1, i, opts.weights.left);
+					inc_at(x + w, i, opts.weights.right);
 				}
 			};
 			
-			var public_funcs = {
-				resize: function(width, height){
-					grid_width = Math.floor(width / cell_width);
-					elem.css('width', grid_width * cell_width + 'px');
-				},
-				insert: function(id, width, height){
-					if ( at(0, 0) == undefined ) {
-						var coords = refine_pos(0, 0, width, height);
-						update_weights(0, 0, width, height);
-						set_rect(coords.x, coords.y, width, height, id);
-						return {x: 0, y: 0};
-					} else {
-						var sorted_cells = [];
-						for(var i = 0; i < cells.length; i++)
-							sorted_cells.push({x: i % grid_width, y: Math.floor(i / grid_width), val: cells[i]});
-						
-						sorted_cells.sort(function(a, b){
-							if (typeof a.val == 'number') {
-								if (typeof b.val == 'number')
-									return (a.val == b.val) ? 0 : ( (a.val < b.val) ? 1 : -1 );
-								else
-									return -1;
-							} else {
-								return (typeof b.val == 'number') ? 1 : 0;
-							}
-						});
-						
-						for(var i = 0; i < sorted_cells.length; i++){
-							var coords = refine_pos(sorted_cells[i].x, sorted_cells[i].y, width, height);
-							if (coords != false){
-								update_weights(coords.x, coords.y, width, height);
-								set_rect(coords.x, coords.y, width, height, id);
-								return {x: coords.x, y: coords.y};
-							}
+			// Inserts a new box into the grid
+			var insert = function(id, width, height){
+				if ( at(0, 0) == undefined ) {
+					var coords = refine_pos(0, 0, width, height);
+					update_weights(0, 0, width, height);
+					set_rect(coords.x, coords.y, width, height, id);
+					grid_height = height;
+					return {x: 0, y: 0};
+				} else {
+					var sorted_cells = [];
+					for(var i = 0; i < cells.length; i++)
+						sorted_cells.push({x: i % grid_width, y: Math.floor(i / grid_width), val: cells[i]});
+					
+					sorted_cells.sort(function(a, b){
+						if (typeof a.val == 'number') {
+							if (typeof b.val == 'number')
+								return (a.val == b.val) ? 0 : ( (a.val < b.val) ? 1 : -1 );
+							else
+								return -1;
+						} else {
+							return (typeof b.val == 'number') ? 1 : 0;
+						}
+					});
+					
+					for(var i = 0; i < sorted_cells.length; i++){
+						var coords = refine_pos(sorted_cells[i].x, sorted_cells[i].y, width, height);
+						if (coords != false){
+							update_weights(coords.x, coords.y, width, height);
+							set_rect(coords.x, coords.y, width, height, id);
+							grid_height = Math.max(grid_height, coords.y + height);
+							return {x: coords.x, y: coords.y};
 						}
 					}
-				},
-				debug: function(){
-					$(elem).find('> div').remove();
-					for(var i = 0; i < cells.length; i++){
-						var x = i % grid_width, y = Math.floor(i / grid_width);
-						$('<div>').text(cells[i]).css({left: x * cell_width +  'px', top: y * cell_height + 'px'}).appendTo(elem);
-					}
 				}
 			};
 			
-			public_funcs.resize( elem.innerWidth(), elem.innerHeight() );
+			this.on('layout', function(){
+				grid_width = Math.floor(context.innerWidth() / opts['cell-width'] );
+				context.children().each(function(){
+					var elem = $(this);
+					insert(elem.attr('id'), elem.data('width'), elem.data('height'));
+					context.triggerHandler('debug');
+				});
+				context.css('min-height', grid_height * opts['cell-height'] + 'px');
+				return false;
+			});
 			
-			return public_funcs;
+			this.on('debug', function(){
+				context.children().hide().find('> div.grid-debug').remove();
+				for(var i = 0; i < cells.length; i++){
+					var x = i % grid_width, y = Math.floor(i / grid_width);
+					$('<div class="grid-debug">').text(cells[i]).css({left: x * opts['cell-width'] +  'px', top: y * opts['cell-height'] + 'px'}).appendTo(context);
+				}
+				return false;
+			});
+			
+			this.triggerHandler('layout');
+			return this;
 		};
 		
-		var grid = null;
-		
-		$(window).resize(function(event){
-			var elem = $('header');
-			grid.resize( elem.innerWidth(), null );
-			grid.debug();
-		});
-		
 		$(document).ready(function(){
-			grid = Grid($('ul'), 100, 100);
-			
-			$('ul > li').each(function(){
-				var elem = $(this);
-				grid.insert(elem.attr('id'), elem.data('width'), elem.data('height'));
-				grid.debug();
-			});
+			$('ul').grid();
 		});
 	</script>
 </head>
@@ -187,6 +193,7 @@
 	<li id="ycd" data-width="2" data-height="1"></li>
 	<li id="ziz" data-width="2" data-height="1"></li>
 	<li id="nmk" data-width="2" data-height="1"></li>
+	<li id="nmk" data-width="2" data-height="4"></li>
 </ul>
 
 </body>
