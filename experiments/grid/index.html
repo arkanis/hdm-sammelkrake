@@ -148,13 +148,12 @@
 			};
 			
 			this.on('layout', function(){
-				grid_width = Math.floor(context.innerWidth() / opts['cell-width'] );
+				grid_width = Math.floor( (context.innerWidth() + opts['cell-spacing']) / (opts['cell-width'] + opts['cell-spacing']) );
 				context.children().each(function(){
 					var elem = $(this);
 					insert(elem.attr('id'), elem.data('width'), elem.data('height'));
-					context.triggerHandler('debug');
 				});
-				context.css('min-height', grid_height * opts['cell-height'] + 'px');
+				context.css('min-height', (grid_height * (opts['cell-height'] + opts['cell-spacing'])) - opts['cell-spacing'] + 'px');
 				return false;
 			});
 			
@@ -162,7 +161,10 @@
 				context.children().hide().find('> div.grid-debug').remove();
 				for(var i = 0; i < cells.length; i++){
 					var x = i % grid_width, y = Math.floor(i / grid_width);
-					$('<div class="grid-debug">').text(cells[i]).css({left: x * opts['cell-width'] +  'px', top: y * opts['cell-height'] + 'px'}).appendTo(context);
+					$('<div class="grid-debug">').text(cells[i]).css({
+						left: x * (opts['cell-width'] + opts['cell-spacing']) +  'px',
+						top: y * (opts['cell-height'] + opts['cell-spacing']) + 'px'
+					}).appendTo(context);
 				}
 				return false;
 			});
@@ -172,7 +174,7 @@
 		};
 		
 		$(document).ready(function(){
-			$('ul').grid();
+			$('ul').grid().triggerHandler('debug');
 		});
 	</script>
 </head>
