@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>HdM Sammelkrake</title>
+	<style>
+		html, body { margin: 0; padding: 0; font-family: sans-serif; font-size: small; }
+		header { margin: 0; padding: 0.75em; color: hsl(0, 0%, 95%); background: hsl(0, 0%, 25%); }
+		header a { color: inherit; }
+		header h1, header p { margin: 0; padding: 0; }
+		
+		ul { margin: 0; padding: 0; list-style: none; border: 1px solid red; position: relative; background: url('grid.png'); min-height: 500px; }
+		ul > li { display: none; }
+		ul > div { position: absolute; width: 100px; height: 100px; box-sizing: border-box; padding: 10px; text-align: center; }
+		/*
+		ul li { position: absolute; width: 90px; height: 90px; margin: 5px; opacity: 0.25; border-radius: 10px; }
+		ul li.a { background-color: green; }
+		ul li.b { background-color: blue; }
+		*/
+	</style>
+	<script src="jquery-1.7.2.js"></script>
+	<script>
+		
+		function Grid(elem, cell_width, cell_height){
+			var grid_width = 0;
+			var cells = [];
+			var weights = { edge: 0.25, left: 1, right: 1, top: 0.5, bottom: 0.5 };
+			
+			// Returns the grid value for the specified cell
+			var at = function(x, y){
+				return cells[y * grid_width + x];
+			};
+			// Increments the value at the specified cell if it contains nothing (undefined)
+			// or a number. In any other case (e.g. string IDs) the cell is left unchanged.
+			var inc_at = function(x, y, val){
+				if (x < 0 || x > grid_width - 1 || y < 0 )
+					return;
+				var weight = at(x, y);
+				if ( typeof weight == 'undefined' )
+					weight = val;
+				else if ( typeof weight == 'number' )
+					weight += val;
+				cells[y * grid_width + x] = weight;
+			};
+			// Sets the value for each cell in the specified rectangle
+			var set_rect = function(x, y, w, h, val){
+				if (x < 0) x = 0;
+				if (y < 0) y = 0;
+				if (x + w > grid_width) w = grid_width - x;
+				
+				for(var i = 0; i < w; i++){
+					for(var j = 0; j < h; j++){
+						cells[(y+j) * grid_width + (x+i)] = val;
+					}
+				}
+			};
+			// Searches a free rectangle near these x and y coords.
+			var refine_pos = function(x, y, w, h){
+				var check_rect = function(x1, y1, x2, y2){
+					if (x1 < 0 || y1 < 0 || x2 >= grid_width)
+						return false;
+					
+					for(var x = x1; x <= x2; x++){
+						for(var y = y1; y <= y2; y++){
+							var type = typeof at(x, y);
+							if ( x >= grid_width || !(type == 'number' || type == 'undefined') )
+								return false;
+						}
+					}
+					return true;
+				};
+				
+				var dx = w-1, dy = h-1;
+				if ( check_rect(x-dx, y-dy, x, y) )
+					return {x: x-dx, y: y-dy};
+				else if ( check_rect(x-dx, y, x, y+dy) )
+					return {x: x-dx, y: y};
+				else if ( check_rect(x, y-dy, x+dx, y) )
+					return {x: x, y: y-dy};
+				else if ( check_rect(x, y, x+dx, y+dy) )
+					return {x: x, y: y};
+				return false;
+			}
+			// Updates the weights around the rectangle. You can configure the
+			// weights via the `weights` variable above.
+			var update_weights = function(x, y, w, h){
+				inc_at(x - 1, y - 1, weights.edge);
+				inc_at(x + w, y - 1, weights.edge);
+				inc_at(x + w, y + h, weights.edge);
+				inc_at(x - 1, y + h, weights.edge);
+				
+				for(var i = x; i < x + w; i++){
+					inc_at(i, y - 1, weights.top);
+					inc_at(i, y + h, weights.bottom);
+				}
+				
+				for(var i = y; i < y + h; i++){
+					inc_at(x - 1, i, weights.left);
+					inc_at(x + w, i, weights.right);
+				}
+			};
+			
+			var public_funcs = {
+				resize: function(width, height){
+					grid_width = Math.floor(width / cell_width);
+					elem.css('width', grid_width * cell_width + 'px');
+				},
+				insert: function(id, width, height){
+					if ( at(0, 0) == undefined ) {
+						var coords = refine_pos(0, 0, width, height);
+						update_weights(0, 0, width, height);
+						set_rect(coords.x, coords.y, width, height, id);
+						return {x: 0, y: 0};
+					} else {
+						var sorted_cells = [];
+						for(var i = 0; i < cells.length; i++)
+							sorted_cells.push({x: i % grid_width, y: Math.floor(i / grid_width), val: cells[i]});
+						
+						sorted_cells.sort(function(a, b){
+							if (typeof a.val == 'number') {
+								if (typeof b.val == 'number')
+									return (a.val == b.val) ? 0 : ( (a.val < b.val) ? 1 : -1 );
+								else
+									return -1;
+							} else {
+								return (typeof b.val == 'number') ? 1 : 0;
+							}
+						});
+						
+						for(var i = 0; i < sorted_cells.length; i++){
+							var coords = refine_pos(sorted_cells[i].x, sorted_cells[i].y, width, height);
+							if (coords != false){
+								update_weights(coords.x, coords.y, width, height);
+								set_rect(coords.x, coords.y, width, height, id);
+								return {x: coords.x, y: coords.y};
+							}
+						}
+					}
+				},
+				debug: function(){
+					$(elem).find('> div').remove();
+					for(var i = 0; i < cells.length; i++){
+						var x = i % grid_width, y = Math.floor(i / grid_width);
+						$('<div>').text(cells[i]).css({left: x * cell_width +  'px', top: y * cell_height + 'px'}).appendTo(elem);
+					}
+				}
+			};
+			
+			public_funcs.resize( elem.innerWidth(), elem.innerHeight() );
+			
+			return public_funcs;
+		};
+		
+		var grid = null;
+		
+		$(window).resize(function(event){
+			var elem = $('header');
+			grid.resize( elem.innerWidth(), null );
+			grid.debug();
+		});
+		
+		$(document).ready(function(){
+			grid = Grid($('ul'), 100, 100);
+			
+			$('ul > li').each(function(){
+				var elem = $(this);
+				grid.insert(elem.attr('id'), elem.data('width'), elem.data('height'));
+				grid.debug();
+			});
+		});
+	</script>
+</head>
+<body>
+
+<header>
+	<h1><a href="/">HdM Sammelkrake</a></h1>
+	<p>Alle studienrelevanten Infos auf einem Blick</p>
+</header>
+
+<ul>
+	<li id="asd" data-width="2" data-height="1"></li>
+	<li id="wer" data-width="3" data-height="2"></li>
+	<li id="rtz" data-width="2" data-height="1"></li>
+	<li id="ztj" data-width="2" data-height="1"></li>
+	<li id="ghj" data-width="2" data-height="1"></li>
+	<li id="uio" data-width="2" data-height="1"></li>
+	<li id="ycd" data-width="2" data-height="1"></li>
+	<li id="ziz" data-width="2" data-height="1"></li>
+	<li id="nmk" data-width="2" data-height="1"></li>
+</ul>
+
+</body>
+</html>
