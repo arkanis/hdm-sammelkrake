@@ -10,7 +10,7 @@
 		header h1, header p { margin: 0; padding: 0; }
 		
 		ul { margin: 0; padding: 0; list-style: none; border: 1px solid red; position: relative; background: url('grid.png'); }
-		ul > li { display: none; }
+		ul > li { background: hsla(140, 50%, 90%, 0.75); }
 		ul > div { position: absolute; width: 100px; height: 100px; box-sizing: border-box; padding: 10px; text-align: center; }
 		/*
 		ul li { position: absolute; width: 90px; height: 90px; margin: 5px; opacity: 0.25; border-radius: 10px; }
@@ -151,7 +151,15 @@
 				grid_width = Math.floor( (context.innerWidth() + opts['cell-spacing']) / (opts['cell-width'] + opts['cell-spacing']) );
 				context.children().each(function(){
 					var elem = $(this);
-					insert(elem.attr('id'), elem.data('width'), elem.data('height'));
+					var w = elem.data('width'), h = elem.data('height');
+					var coords = insert(elem.attr('id'), w, h);
+					elem.css({
+						position: 'absolute',
+						left: coords.x * (opts['cell-width'] + opts['cell-spacing']) + 'px',
+						top: coords.y * (opts['cell-height'] + opts['cell-spacing']) + 'px',
+						width: opts['cell-width'] + ( (w - 1) * (opts['cell-width'] + opts['cell-spacing']) ) + 'px',
+						height: opts['cell-height'] + ( (h - 1) * (opts['cell-height'] + opts['cell-spacing']) ) + 'px'
+					});
 				});
 				context.css('min-height', (grid_height * (opts['cell-height'] + opts['cell-spacing'])) - opts['cell-spacing'] + 'px');
 				return false;
@@ -174,7 +182,7 @@
 		};
 		
 		$(document).ready(function(){
-			$('ul').grid().triggerHandler('debug');
+			$('ul').grid()//.triggerHandler('debug');
 		});
 	</script>
 </head>
@@ -186,16 +194,16 @@
 </header>
 
 <ul>
-	<li id="asd" data-width="2" data-height="1"></li>
-	<li id="wer" data-width="3" data-height="2"></li>
-	<li id="rtz" data-width="2" data-height="1"></li>
-	<li id="ztj" data-width="2" data-height="1"></li>
-	<li id="ghj" data-width="2" data-height="1"></li>
-	<li id="uio" data-width="2" data-height="1"></li>
-	<li id="ycd" data-width="2" data-height="1"></li>
-	<li id="ziz" data-width="2" data-height="1"></li>
-	<li id="nmk" data-width="2" data-height="1"></li>
-	<li id="nmk" data-width="2" data-height="4"></li>
+	<li id="asd" data-width="2" data-height="1">asd</li>
+	<li id="wer" data-width="3" data-height="2">wer</li>
+	<li id="rtz" data-width="2" data-height="1">rtz</li>
+	<li id="ztj" data-width="2" data-height="1">ztj</li>
+	<li id="ghj" data-width="2" data-height="1">ghj</li>
+	<li id="uio" data-width="2" data-height="1">uio</li>
+	<li id="ycd" data-width="2" data-height="1">ycd</li>
+	<li id="ziz" data-width="2" data-height="1">ziz</li>
+	<li id="nmk" data-width="2" data-height="1">nmk</li>
+	<li id="rew" data-width="2" data-height="4">rew</li>
 </ul>
 
 </body>
