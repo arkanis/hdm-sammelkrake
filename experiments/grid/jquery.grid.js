@@ -3,8 +3,9 @@ jQuery.fn.grid = function(options){
 		'cell-width': 100,
 		'cell-height': 100,
 		'cell-spacing': 10,
-		weights: { edge: 0.25, left: 1, right: 1, top: 0.5, bottom: 0.5 }
-	});
+		weights: { edge: 0.25, left: 1, right: 1, top: 0.5, bottom: 0.5 },
+		cooldown: 0.1
+	}, options);
 	var context = this;
 	
 	var cells = [];
@@ -72,6 +73,10 @@ jQuery.fn.grid = function(options){
 	// Updates the weights around the rectangle. You can configure the
 	// weights via the `weights` variable above.
 	var update_weights = function(x, y, w, h){
+		for(var i = 0; i < cells.length; i++)
+			if (typeof cells[i] == 'number')
+				cells[i] -= opts.cooldown;
+		
 		inc_at(x - 1, y - 1, opts.weights.edge);
 		inc_at(x + w, y - 1, opts.weights.edge);
 		inc_at(x + w, y + h, opts.weights.edge);
@@ -137,6 +142,7 @@ jQuery.fn.grid = function(options){
 				width: opts['cell-width'] + ( (w - 1) * (opts['cell-width'] + opts['cell-spacing']) ) + 'px',
 				height: opts['cell-height'] + ( (h - 1) * (opts['cell-height'] + opts['cell-spacing']) ) + 'px'
 			});
+			//context.triggerHandler('debug');
 		});
 		context.css('min-height', (grid_height * (opts['cell-height'] + opts['cell-spacing'])) - opts['cell-spacing'] + 'px');
 		return false;
@@ -147,8 +153,11 @@ jQuery.fn.grid = function(options){
 		for(var i = 0; i < cells.length; i++){
 			var x = i % grid_width, y = Math.floor(i / grid_width);
 			$('<div class="grid-debug">').text(cells[i]).css({
-				left: x * (opts['cell-width'] + opts['cell-spacing']) +  'px',
-				top: y * (opts['cell-height'] + opts['cell-spacing']) + 'px'
+				position: 'absolute',
+				left: x * (opts['cell-width'] + opts['cell-spacing']) + 'px',
+				top: y * (opts['cell-height'] + opts['cell-spacing']) + 'px',
+				width: opts['cell-width'] + 'px',
+				height: opts['cell-height'] + 'px'
 			}).appendTo(context);
 		}
 		return false;
