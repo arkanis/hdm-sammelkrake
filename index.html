@@ -5,150 +5,10 @@
 	<title>HdM Sammelkrake</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="jquery-1.7.2.min.js"></script>
+	<script src="experiments/grid/jquery.grid.js"></script>
 	<script>
 		$(document).ready(function(){
-			/*
-			var grabbed_elem;
-			var x, y;
-			$('h2').mousedown(function(){
-				grabbed_elem = $(this).closest('article');
-			}).mouseup(function(){
-				grabbed_elem = undefined;
-				x = undefined;
-				y = undefined;
-			}).mousemove(function(event){
-				if (!grabbed_elem)
-					return true;
-				if (!!x && !!y) {
-					var dx = event.pageX - x, dy = event.pageY - y;
-					var pos = grabbed_elem.position();
-					grabbed_elem.css({
-						left: pos.left + dx + 'px',
-						top: pos.top + dy + 'px'
-					});
-				}
-				x = event.pageX;
-				y = event.pageY;
-				return false;
-			});
-			*/
-			
-			var cell_width = 150, cell_height = 200;
-			var grid_width = 6, grid_height = 4;
-			var grid = new Array(grid_width * grid_height);
-			
-			function grid_set(x, y, val){
-				if (x < 0 || x > grid_width - 1 || y < 0 || y > grid_height - 1)
-					return;
-					//throw ['Index out of bounds, x: ', x, ' y: ', y].join('');
-				grid[y * grid_width + x] = val;
-			}
-			
-			function grid_get(x, y){
-				if (x < 0 || x > grid_width - 1 || y < 0 || y > grid_height - 1)
-					return undefined;
-					//throw ['Index out of bounds, x: ', x, ' y: ', y].join('');
-				return grid[y * grid_width + x];
-			}
-			
-			function grid_increment_at(x, y, weight){
-				var old_val = grid_get(x, y);
-				if ( typeof old_val == 'undefined' )
-					grid_set(x, y, weight);
-				else if ( typeof old_val == 'number' )
-					grid_set(x, y, old_val + weight);
-			}
-			
-			function insert(width, height, id){
-				if ( grid_get(0, 0) == undefined ) {
-					var coords = check_around_coords(0, 0, width, height);
-					erode(0, 0, width, height);
-					for(ix = 0; ix < width; ix++)
-						for(iy = 0; iy < height; iy++)
-							grid_set(coords.x + ix, coords.y + iy, id);
-					return {x: 0, y: 0};
-				} else {
-					var sorted_grid = [];
-					for(var i = 0; i < grid.length; i++)
-						sorted_grid.push({x: i % grid_width, y: Math.floor(i / grid_width), val: grid[i]});
-					
-					sorted_grid.sort(function(a, b){
-						if (typeof a.val == 'number') {
-							if (typeof b.val == 'number')
-								return (a.val == b.val) ? 0 : ( (a.val < b.val) ? -1 : 1 );
-							else
-								return -1;
-						} else {
-							return (typeof b.val == 'number') ? 1 : 0;
-						}
-					});
-					
-					for(var i = 0; i < sorted_grid.length; i++){
-						var coords = check_around_coords(sorted_grid[i].x, sorted_grid[i].y, width, height);
-						if (coords != false){
-							erode(coords.x, coords.y, width, height);
-							for(ix = 0; ix < width; ix++)
-								for(iy = 0; iy < height; iy++)
-									grid_set(coords.x + ix, coords.y + iy, id);
-							return {x: coords.x, y: coords.y};
-						}
-					}
-				}
-			}
-			
-			function check_around_coords(x, y, w, h){
-				var check_rect = function(x1, y1, x2, y2){
-					for(var x = x1; x <= x2; x++){
-						for(var y = y1; y <= y2; y++){
-							if ( typeof grid_get(x, y) == 'object' )
-								return false;
-						}
-					}
-					return true;
-				};
-				
-				var dx = w-1, dy = h-1;
-				if ( check_rect(x, y, x+dx, y+dy) )
-					return {x: x, y: y};
-				else if ( check_rect(x-dx, y, x, y+dy) )
-					return {x: x-dx, y: y};
-				else if ( check_rect(x-dx, y-dy, x, y) )
-					return {x: x-dx, y: y-dy};
-				else if ( check_rect(x, y-dy, x+dx, y) )
-					return {x: x, y: y-dy};
-				return false;
-			}
-			
-			function erode(x, y, w, h){
-				var weights = { edge: 0.25, left: 1, right: 1, top: 0.5, bottom: 0.5 };
-				grid_increment_at(x - 1, y - 1, weights.edge);
-				grid_increment_at(x + w, y - 1, weights.edge);
-				grid_increment_at(x + w, y + h, weights.edge);
-				grid_increment_at(x - 1, y + h, weights.edge);
-				
-				for(var i = x; i < x + w; i++){
-					grid_increment_at(i, y - 1, weights.top);
-					grid_increment_at(i, y + h, weights.bottom);
-				}
-				
-				for(var i = y; i < y + h; i++){
-					grid_increment_at(x - 1, i, weights.left);
-					grid_increment_at(x + w, i, weights.right);
-				}
-			}
-			
-			$('section').css({width: grid_width * cell_width + 'px', height: grid_height * cell_height + 'px' }).
-			find('> article').each(function(){
-				var w = $(this).data('width'), h = $(this).data('height');
-				var coords = insert(w, h, $(this).attr('id'));
-				$(this).css({
-					display: 'block',
-					left: coords.x * cell_width + 'px',
-					top: coords.y * cell_height + 'px',
-					width: w * cell_width + 'px',
-					height: h * cell_height + 'px'
-				});
-			});
+			$('section').grid({ 'cell-width': 145, 'cell-height': 200, 'cell-spacing': 10 });//.triggerHandler('debug');
 		});
 	</script>
 </head>
@@ -163,28 +23,18 @@
 	<article id="official-news" class="official" data-width="2" data-height="1">
 		<h2>Offizielle News</h2>
 		<ul>
-			<li><a href="#" title="Am 19.6 14:46 Uhr von Kerstin Lauer">Ansprechpartner/in gesucht</a></li>
-			<li><a href="#" title="Am 19.6 14:19 Uhr von sm125@hdm-stuttgart.de">Unterstützung Studioproduktion Film SS12</a></li>
-			<li><a href="#" title="Am 19.6 11:09 Uhr von Michael Wolf">Social Media: Die Novellierung der Personalbeschaffung im Web 2.0</a></li>
-			<li><a href="#" title="Am 18.6 18:13 Uhr von Bjoern von Prollius">Infoveranstaltung Hauptstudium SS12</a></li>
-			<li><a href="#" title="Am 18.6 15:33 Uhr von Prof. Walter Kriha">Geplanter Vortrag von Herrn Kampe fällt aus</a></li>
-			<li><a href="#" title="Am 14.6 8:43 Uhr von Prof.Dr.-Ing.Oliver Kretzschmar">Firma Bassier, Bergmann und Kindler in Ludwigsburg suchen einen Praktikant Project Management ...</a></li>
+			<li><a href="#" title="Ansprechpartner/in gesucht, am 19.6 14:46 Uhr von Kerstin Lauer">Ansprechpartner/in gesucht</a></li>
+			<li><a href="#" title="Unterstützung Studioproduktion Film SS12, am 19.6 14:19 Uhr von sm125@hdm-stuttgart.de">Unterstützung Studioproduktion Film SS12</a></li>
+			<li><a href="#" title="Social Media: Die Novellierung der Personalbeschaffung im Web 2.0, am 19.6 11:09 Uhr von Michael Wolf">Social Media: Die Novellierung der Personalbeschaffung im Web 2.0</a></li>
+			<li><a href="#" title="Infoveranstaltung Hauptstudium SS12, am 18.6 18:13 Uhr von Bjoern von Prollius">Infoveranstaltung Hauptstudium SS12</a></li>
+			<li><a href="#" title="Geplanter Vortrag von Herrn Kampe fällt aus, am 18.6 15:33 Uhr von Prof. Walter Kriha">Geplanter Vortrag von Herrn Kampe fällt aus</a></li>
+			<li><a href="#" title="Firma Bassier, Bergmann und Kindler in Ludwigsburg suchen einen Praktikant Project Management ..., am 14.6 8:43 Uhr von Prof.Dr.-Ing.Oliver Kretzschmar">Firma Bassier, Bergmann und Kindler in Ludwigsburg suchen einen Praktikant Project Management ...</a></li>
+			<li><a href="#" title="Geplanter Vortrag von Herrn Kampe fällt aus, am 18.6 15:33 Uhr von Prof. Walter Kriha">Geplanter Vortrag von Herrn Kampe fällt aus</a></li>
 		</ul>
 		<ul>
-			<li><a href="#">HdM Mails <small title="3 ungelesene Nachrichten">3</small></a></li>
-			<li><a href="#">Newsgroups <small title="2 ungelesene Nachrichten">2</small></a></li>
-			<li><a href="#">Meldungen aus dem Persönlichen Stundenplan <small title="1 Meldung seit letzter Vorlesung">1</small></a></li>
-		</ul>
-	</article>
-	
-	<article id="official-infos" class="official" data-width="2" data-height="1">
-		<h2>Offizielle Infos</h2>
-		<ul>
-			<li><a href="#">MI-Wiki</a> <small>Infos zum Studium, Vorlesungen und HowTos (z.B. VPN)</small></li>
-			<li><a href="#">Skripte-Server</a> <small>Skripte und Daten zu Vorlesungen</small></li>
-			<li><a href="#">SB-Funktion</a> <small>Deine Notenliste und Prüfungsanmeldung</small></li>
-			<li><a href="#">Semestergalerie</a> <small>Bilder und Namen von deinem Semester</small></li>
-			<li><a href="#">Software-Tools</a> <small>MSDNAA, IDEs, ISO-Images und weitere Downloads</small></li>
+			<li><a href="#" title="3 ungelesene Nachrichten">HdM Mails <span class="count">3</span></a></li>
+			<li><a href="#" title="2 ungelesene Nachrichten">Newsgroups <span class="count">2</span></a></li>
+			<li><a href="#" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
 		</ul>
 	</article>
 	
@@ -204,8 +54,8 @@
 				<th>8:15</th>
 				<td></td>
 				<td></td>
-				<td><a href="#">Internet Traffic, Performance and Content Distribution/W</a> <small>in 136</small></td>
-				<td><a href="#">Multimedia Codecs/W</a> <small>verlegt nach 137</small></td>
+				<td><a href="#" title="Internet Traffic, Performance and Content Distribution/W">Internet Traffic, Performance and Content Distribution/W</a> <small>in 136</small></td>
+				<td class="changed"><a href="#">Multimedia Codecs/W</a> <small>verlegt, in 137</small></td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -214,9 +64,9 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<td><a href="#">Multimedia Codecs/W</a> <small>in 135</small></td>
+				<td><a href="#" title="Multimedia Codecs/W">Multimedia Codecs/W</a> <small>in 135</small></td>
 				<td></td>
-				<td><a href="#">Entwicklung von Rich Media Systemen/W</a> <small>in 141</small></td>
+				<td><a href="#" title="Entwicklung von Rich Media Systemen/W">Entwicklung von Rich Media Systemen/W</a> <small>in 141</small></td>
 			</tr>
 			<tr>
 				<th>11:45</th>
@@ -225,7 +75,7 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<td><a href="#">Entwicklung von Rich Media Systemen/W</a> <small>in 141</small></td>
+				<td><a href="#" title="Entwicklung von Rich Media Systemen/W">Entwicklung von Rich Media Systemen/W</a> <small>in 141</small></td>
 			</tr>
 			<tr>
 				<th>13:15</th>
@@ -239,7 +89,7 @@
 			<tr>
 				<th>14:15</th>
 				<td></td>
-				<td><a href="#">Management vernetzter Computer/W</a> <small>in 137</small></td>
+				<td><a href="#" title="Management vernetzter Computer/W">Management vernetzter Computer/W</a> <small>in 137</small></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -248,8 +98,8 @@
 			<tr>
 				<th>16:00</th>
 				<td></td>
-				<td><a href="#">Management vernetzter Computer/W</a> <small>in 137</small></td>
-				<td><a href="#">Sichere Systeme/W</a> <small>in P03 <span class="count" title="1 Nachricht zu dieser Vorlesung seit letzter Vorlesung">1</span></small></a></td>
+				<td><a href="#" title="Management vernetzter Computer/W">Management vernetzter Computer/W</a> <small>in 137</small></td>
+				<td><a href="#" title="Sichere Systeme/W">Sichere Systeme/W</a> <small>in P03 <a href="#" title="1 Nachricht zu dieser Vorlesung seit letzter Vorlesung"><span class="count">1</span></a></small></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -258,8 +108,8 @@
 				<th>17:45</th>
 				<td></td>
 				<td></td>
-				<td><a href="#">Sichere Systeme/W</a> <small>in P03 <span class="count" title="1 Nachricht zu dieser Vorlesung seit letzter Vorlesung">1</span></small></a></td>
-				<td><a href="#">Design und Implementation fortgeschrittener Programmiersprachen/W</a> <small>in 137</small></td>
+				<td><a href="#" title="Sichere Systeme/W">Sichere Systeme/W</a> <small>in P03 <a href="#" title="1 Nachricht zu dieser Vorlesung seit letzter Vorlesung"><span class="count">1</span></a></small></a></td>
+				<td><a href="#" title="Design und Implementation fortgeschrittener Programmiersprachen/W">Design und Implementation fortgeschrittener Programmiersprachen/W</a> <small>in 137</small></td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -268,11 +118,55 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<td><a href="#">Design und Implementation fortgeschrittener Programmiersprachen/W</a> <small>in 137</small></td>
+				<td><a href="#" title="Design und Implementation fortgeschrittener Programmiersprachen/W">Design und Implementation fortgeschrittener Programmiersprachen/W</a> <small>in 137</small></td>
 				<td></td>
 				<td></td>
 			</tr>
 		</table>
+	</article>
+	
+	<article id="official-working-stuff" class="official" data-width="2" data-height="1">
+		<h2>Offizielles Arbeitsmaterial</h2>
+		<ul>
+			<li><a href="#">MI-Wiki</a> <small>Infos zum Studium, Vorlesungen und HowTos (z.B. VPN)</small></li>
+			<li><a href="#">Skripte-Server</a> <small>Skripte und Daten zu Vorlesungen</small></li>
+			<li><a href="#">Semestergalerie</a> <small>Bilder und Namen von deinem Semester</small></li>
+			<li><a href="#">Software-Tools</a> <small>MSDNAA, IDEs, ISO-Images und weitere Downloads</small></li>
+			<li><a href="#">MI FTP-Server</a> <small>ISO-Images und weitere größere Downloads</small></li>
+		</ul>
+	</article>
+	
+	<article id="official-infos" class="official" data-width="2" data-height="1">
+		<h2>Offizielle Infos</h2>
+		<ul>
+			<li><a href="#">MI-Wiki</a> <small>Infos zum Studium, Vorlesungen und HowTos (z.B. VPN)</small></li>
+			<li><a href="#">SB-Funktion</a> <small>Deine Notenliste und Prüfungsanmeldung</small></li>
+			<li><a href="#">SPO - Studienprüfungsordnung</a> <small>Rechtliche Regelung deines Studiums</small></li>
+			<li><a href="#">LDAP-Passwort ändern</a> <small>Website um dein zentrales HdM-Passwort zu ändern</small></li>
+		</ul>
+	</article>
+	
+	<article id="messi" class="social" data-width="2" data-height="2">
+		<h2>Messi</h2>
+		<dl>
+			<dt>HdM Mitarbeiter (2 online)</dt>
+				<dd class="online">Andreas Stiegler</dd>
+				<dd class="away">Christoph Lindenmüller</dd>
+			<dt>Wintersemester 2008/2009 (3 online)</dt>
+				<dd class="online">Anna Regner</dd>
+				<dd class="online">Markus Schleehauf</dd>
+				<dd class="away">Nils Beyrle</dd>
+		</dl>
+	</article>
+	
+	<article id="students-stuff" class="social" data-width="2" data-height="1">
+		<h2>Von Studenten für Studenten</h2>
+		<ul>
+			<li><a href="#">Klaus</a> <small>Klausurenarchiv</small></li>
+			<li><a href="#">Dropbox</a></li>
+			<li><a href="#">HdM-Wiki</a></li>
+			<li>Facebook-Gruppen: <a href="#">WS 2011/2012</a>, <a href="#">SS 2012</a></li>
+		</ul>
 	</article>
 	
 	<article id="project-activities" data-width="2" data-height="1">
@@ -289,29 +183,7 @@
 		</dl>
 	</article>
 	
-	<article id="students-stuff" data-width="2" data-height="1">
-		<h2>Von Studenten für Studenten</h2>
-		<ul>
-			<li><a href="#">Klaus</a> <small>Klausurenarchiv</small></li>
-			<li><a href="#">HdM-Wiki</a></li>
-			<li>HdM Facebook-Gruppen: <a href="#">WS 2011/2012</a>, <a href="#">SS 2012</a></li>
-		</ul>
-	</article>
-	
-	<article id="messi" data-width="2" data-height="1">
-		<h2>Messi</h2>
-		<dl>
-			<dt>HdM Mitarbeiter (2 online)</dt>
-				<dd class="online">Andreas Stiegler</dd>
-				<dd class="away">Christoph Lindenmüller</dd>
-			<dt>Wintersemester 2008/2009 (3 online)</dt>
-				<dd class="online">Anna Regner</dd>
-				<dd class="online">Markus Schleehauf</dd>
-				<dd class="away">Nils Beyrle</dd>
-		</dl>
-	</article>
-	
-	<article id="events" data-width="2" data-height="1">
+	<article id="events" class="events" data-width="2" data-height="1">
 		<h2>Events</h2>
 		<ul>
 			<li><a href="#">MI-Wiki</a> <small>Infos zum Studium, Vorlesungen und HowTos (z.B. VPN)</small></li>
@@ -322,8 +194,8 @@
 		</ul>
 	</article>
 	
-	<article id="recordings" data-width="2" data-height="1">
-		<h2>Vorträge</h2>
+	<article id="recordings" class="events" data-width="2" data-height="1">
+		<h2>Aufzeichnungen von Vorträgen</h2>
 		<ul>
 			<li>
 				<a href="#">10. GamesDay</a>
@@ -344,7 +216,7 @@
 		</ul>
 	</article>
 	
-	<article id="publications" data-width="2" data-height="1">
+	<article id="publications" class="events" data-width="2" data-height="1">
 		<h2>Veröffentlichungen</h2>
 		<p>Interessante Arbeiten, Projekte und Papers von Studenten</p>
 		<ul>
