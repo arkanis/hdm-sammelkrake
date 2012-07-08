@@ -97,17 +97,20 @@ context('Scanner', function(){
 	});
 	
 	context('peek function', function(){
-		test('should allow to peek for a tokens without consuming them and without throwing exceptions', function(){
+		test('should allow to peek for a tokens without consuming them', function(){
 			$scan = new Scanner('123');
 			assert_equal($scan->peek('1'), '1');
 			assert_equal($scan->peek('12'), '12');
 			assert_equal($scan->peek('x', 'yz', '1'), '1');
 			
-			assert_equal($scan->peek('00000'), false);
-			assert_equal($scan->peek('x', 'y', '012'), false);
+			assert_fails(function() use(&$scan){
+				$scan->peek('00000');
+			});
+			assert_equal($scan->peek('00000', false), false);
+			assert_equal($scan->peek('x', 'y', '012', false), false);
 			
 			assert_equal($scan->one_of('123'), '123');
-			assert_equal($scan->peek('1'), false);
+			assert_equal($scan->peek('1', false), false);
 			assert_null($scan->peek(null));
 			assert_null($scan->peek('1', 'a', null), null);
 		});
@@ -119,15 +122,27 @@ context('Scanner', function(){
 			assert_equal($scan->one_of('data:'), 'data:');
 			assert_equal($scan->bytes(44), 'aGVsbG8gd29ybGQsIHRoaXMgaXMganVzdCBhIHRlc3Q=');
 		});
-		test('should return false if the data could only be read incomplete', function(){
+		test('should throw an exception or return false if the data could only be read incomplete', function(){
 			$scan = new Scanner('data:aGVsbG8');
 			assert_equal($scan->one_of('data:'), 'data:');
-			assert_false($scan->bytes(44));
+			assert_fails(function() use(&$scan) {
+				$scan->bytes(44);
+			});
+			assert_false($scan->bytes(44, false));
 		});
-		test('should return null if we are at EOF', function(){
+		test('should throw an exception or return null if we are at EOF', function(){
 			$scan = new Scanner('data:');
 			assert_equal($scan->one_of('data:'), 'data:');
-			assert_null($scan->bytes(44));
+			assert_fails(function() use(&$scan) {
+				$scan->bytes(44);
+			});
+			assert_null($scan->bytes(44, false));
+		});
+		test('should consume the bytes', function(){
+			$scan = new Scanner('data:0000,foo');
+			assert_equal($scan->one_of('data:'), 'data:');
+			assert_equal($scan->bytes(4), '0000');
+			assert_equal($scan->one_of(',foo'), ',foo');
 		});
 	});
 	
@@ -154,6 +169,14 @@ context('Scanner', function(){
 		
 	});
 	*/
+	
+	test('should work with files as resource', function(){
+		$fd = fopen('scanner_test_file', 'r');
+		$scan = new Scanner($fd);
+		assert_equal($scan->until("\n"), array('aa', "\n"));
+		assert_equal($scan->as_long_as('b', 'c', "\n"), array("\nb\nc", null));
+		fclose($fd);
+	});
 });
 
 $failed_tests = $shinpuru_test_suite->run_tests();

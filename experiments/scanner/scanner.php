@@ -1,13 +1,7 @@
 <?php
 
-/*
-
-- optional function that preprocesses each following character (e.g. converts to lowercase)
-- function tokens (e.g. for ctype_isspace or something like that)
-
-*/
-
 class ScannerException extends Exception { }
+
 class Scanner {
 	private $fd = null;
 	private $buffer = '';
@@ -33,7 +27,7 @@ class Scanner {
 			$match = false;
 		
 		if ($match === false and !$accept_mismatch)
-			throw new ScannerException('got mismatch!');
+			throw new ScannerException('got mismatch! buffer: "' . substr($this->buffer, 0, 10) . '"');
 		
 		$this->consume_buffer(strlen($match));
 		return $match;
@@ -46,11 +40,23 @@ class Scanner {
 		// If we got an EOF and the user does not want to match an EOF mark the match as failed
 		if ($match === null and !$match_eof)
 			$match = false;
+		if ($match === false and !$accept_mismatch)
+			throw new ScannerException('got mismatch! buffer: "' . substr($this->buffer, 0, 10) . '"');
+		
 		return $match;
 	}
 	
-	function bytes($number_of_bytes){
-		return $this->token_at(0, $number_of_bytes);
+	function bytes($number_of_bytes, $exception_on_missmatch = true){
+		$data = $this->token_at(0, $number_of_bytes);
+		
+		if ($data === false or $data === null) {
+			if ($exception_on_missmatch)
+				throw new ScannerException('got mismatch! buffer: "' . substr($this->buffer, 0, 10) . '"');
+		} else {
+			$this->consume_buffer(strlen($data));
+		}
+		
+		return $data;
 	}
 	
 	function as_long_as($tokens){
@@ -77,7 +83,7 @@ class Scanner {
 			$match = false;
 		
 		if ($match === false and !$accept_mismatch)
-			throw new ScannerException('got mismatch!');
+			throw new ScannerException('got mismatch! buffer: ' . $this->buffer);
 		
 		return array($content, $match);
 	}
