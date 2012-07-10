@@ -174,8 +174,39 @@ context('Scanner', function(){
 		$fd = fopen('scanner_test_file', 'r');
 		$scan = new Scanner($fd);
 		assert_equal($scan->until("\n"), array('aa', "\n"));
-		assert_equal($scan->as_long_as('b', 'c', "\n"), array("\nb\nc", null));
+		assert_equal($scan->one_of("\n"), "\n");
+		assert_equal($scan->as_long_as('b', '0', '1'), array('b001', "\n"));
+		assert_equal($scan->until(null), array("\nc", null));
 		fclose($fd);
+	});
+	
+	context('capturing', function(){
+		test('should allow to capture the processed data', function(){
+			$fd = fopen('scanner_test_file', 'r');
+			$scan = new Scanner($fd);
+			$data = $scan->capture(function() use($scan) {
+				$scan->until(null);
+			});
+			assert_equal($data, file_get_contents('scanner_test_file'));
+			fclose($fd);
+		});
+		
+		test('should work with nested captures', function(){
+			$fd = fopen('scanner_test_file', 'r');
+			$scan = new Scanner($fd);
+			$all = $scan->capture(function() use($scan) {
+				$scan->until("\n");
+				$scan->one_of("\n");
+				$line = $scan->capture(function() use($scan) {
+					$scan->until("\n");
+					$scan->one_of("\n");
+				});
+				assert_equal($line, "b001\n");
+				$scan->until(null);
+			});
+			assert_equal($all, file_get_contents('scanner_test_file'));
+			fclose($fd);
+		});
 	});
 });
 

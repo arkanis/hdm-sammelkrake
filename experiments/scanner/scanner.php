@@ -5,6 +5,7 @@ class ScannerException extends Exception { }
 class Scanner {
 	private $fd = null;
 	private $buffer = '';
+	private $captures = array();
 	
 	const MATCH_WHILE = true;
 	const MATCH_UNTIL = false;
@@ -16,6 +17,12 @@ class Scanner {
 			$this->buffer = $resource_or_string;
 		else
 			throw new ScannerException("Don't know how to read data from $resource_or_string");
+	}
+	
+	function capture($action){
+		array_push($this->captures, '');
+		$action();
+		return array_pop($this->captures);
 	}
 	
 	function one_of($tokens){
@@ -115,10 +122,11 @@ class Scanner {
 	 * no token matches or `null` if `$pos` is at EOF.
 	 */
 	private function match_at($pos, $tokens){
-		// If there are no tokens in the list (e.g. someone is explicitly searching
-		// for EOF) and we are at EOF return `null`
+		// If there are no tokens in the list someone is explicitly searching for EOF. If
+		// `token_at()` returns `null` we are at EOF and return `null`, too. Otherwise
+		// return `false` for a missmatch.
 		if ( count($tokens) == 0 and $pos >= strlen($this->buffer) )
-			return null;
+			return ($this->token_at($pos, 1) === null) ? null : false;
 		
 		foreach($tokens as $token){
 			$found = $this->token_at($pos, is_string($token) ? strlen($token) : 1);
@@ -189,6 +197,10 @@ class Scanner {
 	 * Throws the specified number of bytes away from the start of the buffer.
 	 */
 	private function consume_buffer($bytes_to_consume){
+		$consumed = substr($this->buffer, 0, $bytes_to_consume);
+		foreach($this->captures as &$capture)
+			$capture .= $consumed;
+		
 		$this->buffer = substr($this->buffer, $bytes_to_consume);
 	}
 }
