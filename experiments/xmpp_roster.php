@@ -1,5 +1,56 @@
 <?php
 
+/*
+
+Useful resources:
+
+- Extensible Messaging and Presence Protocol (XMPP) - Core: http://xmpp.org/rfcs/rfc6120.html
+- Extensible Messaging and Presence Protocol (XMPP) - Instant Messaging and Presence: http://xmpp.org/rfcs/rfc6121.html
+- XEP-0160 - Best Practices for Handling Offline Messages: http://xmpp.org/extensions/xep-0160.html
+
+*/
+
+/*
+require('scanner/scanner.php');
+
+function read_stanza($fd){
+	$scan = new Scanner($fd);
+	$stanza = '';
+	$stanza .= reset($scan->until('<'));
+	$stanza .= $scan->one_of('<');
+	do {
+		list($content, $token) = $scan->until('"', '>');
+		$stanza .= $content;
+		$stanza .= $scan->one_of($token);
+		if ($token == '"'){
+			$stanza .= reset($scan->until('"'));
+			$stanza .= $scan->one_of('"');
+		}
+	} while($token != '>');
+	
+	return $stanza;
+}
+
+// something like
+// elem = spaces '<' … spaces ( … '=' spaces '"' … '"' ) '/'? '>'
+
+function read_elem($scan){
+	$scan->until_and('<');
+	list($tag_name, $token) = $scan->until('>', '/', function($t){ return ctype_space($t); });
+	// Parse attributes until we're at the end of the tag
+	while($token != '>' and $token != '/'){
+		
+		$scan->as_long_as(function($t){ return ctype_space($t); });
+		$scan->one_of('>', '/', false);
+	}
+	
+	if ($token == '>')
+		// we got an open tag, scan recursively until we get the end tag
+	else ($token == '/')
+		// we got an end tag, return
+}
+*/
+
 $ssl_context = stream_context_create(array(
 	'ssl' => array( 'verify_peer' => false )
 ));
