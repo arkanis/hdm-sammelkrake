@@ -31,9 +31,8 @@ recv();
 // Basic idea from http://stackoverflow.com/questions/1216427/xmpp-sasl-authentication-on-ejabberd-with-php
 // But there is an error there: \u0000 does not work in PHP strings, \0 has to be used instead
 // Official PLAIN auth RFC sample: http://tools.ietf.org/html/rfc4616#section-4
-$user = 'you';
+list($user, $pass) = require('user_credentials.php');
 $domain = 'messi.mi.hdm-stuttgart.de';
-$pass = 'secret';
 $auth = base64_encode("$user@$domain\0$user\0$pass");
 send("<auth xmlns='urn:ietf:params:xml:ns:xmpp-sasl' mechanism='PLAIN'>$auth</auth>");
 recv();
@@ -50,7 +49,8 @@ send("<iq id='2' type='get'><query xmlns='jabber:iq:roster'/></iq>");
 recv();
 
 // Exchanging Presence Information: http://xmpp.org/rfcs/rfc6121.html#presence
-send("<presence />");
+// negative priority of prevents us from receiving any offline messages: http://xmpp.org/extensions/xep-0160.html#flow
+send("<presence><priority>-1</priority></presence>");
 do {
 	list($read, $write, $except) = array(array($con), null, null);
 	echo("waiting on stream_select\n");

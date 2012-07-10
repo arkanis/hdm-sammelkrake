@@ -3,16 +3,12 @@
 require('imap/imap_connection.php');
 require('message_parser.php');
 
-
-$user = 'you';
-$pass = 'secret';
-
-
 $imap = new ImapConnection('tls://mail.hdm-stuttgart.de:993', 1, array(
 	'log_file' => 'imap.log',
 	'ssl' => array( 'verify_peer' => false )
 ));
 
+list($user, $pass) = require('user_credentials.php');
 $imap->with_sensitive_data($pass, function() use($imap, $user, $pass) {
 	$imap->command("login $user \"$pass\"");
 });

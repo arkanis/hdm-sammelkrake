@@ -7,7 +7,8 @@ $nntp = new NntpConnection('tls://news.hdm-stuttgart.de:563', 1, array(
 	'ssl' => array( 'verify_peer' => false )
 ));
 
-$nntp->authenticate('you', 'secret');
+list($user, $pass) = require('user_credentials.php');
+$nntp->authenticate($user, $pass);
 
 $start_date = date('Ymd His', time() - 60*60*24*7);
 $nntp->command('newnews hdm.mi.*-offiziell ' . $start_date, 230);
