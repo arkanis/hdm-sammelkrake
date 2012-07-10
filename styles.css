@@ -27,6 +27,7 @@ article ul { margin: 0.5em 0; padding: 0 0 0 1em; list-style: none; }
 article ul > li { position: relative; }
 article ul > li::before { content: '•'; position: absolute; left: -0.9em; top: 0; }
 article ul > li > small { display: block; }
+article ul > li > ul { margin: 0.125em 0 0.5em 0; }
 article p { margin: 0.5em 0; }
 
 article span.count { font-size: 0.77em; vertical-align: 0.15em; padding: 0 0.5em; background: hsl(0, 0%, 85%); border-radius: 5px; color: hsl(0, 0%, 15%); text-shadow: 1px 1px 1px hsl(0, 0%, 100%); }
@@ -53,5 +54,11 @@ article#schedule table td > a { display: block; width: 88px; overflow: hidden; t
 
 article#schedule table tr:nth-child(5) td { background: hsla(0, 0%, 0%, 0.1); }
 
+article#project-activities dl { margin: 0.5em 0; padding: 0; }
+article#project-activities dl dt {}
+
+article#recordings ul > li > a, article#recordings ul > li > small { display: inline; }
 article#recordings ul ul { font-size: 0.77em; }
-article#recordings ul a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
+article#recordings ul ul a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
+
+article#publications li a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
