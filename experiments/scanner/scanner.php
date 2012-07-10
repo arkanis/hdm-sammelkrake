@@ -95,6 +95,13 @@ class Scanner {
 		return array($content, $match);
 	}
 	
+	function until_and($tokens){
+		list($content, $match) = call_user_func_array(array($this, 'until'), func_get_args());
+		if (is_string($match))
+			$this->consume_buffer(strlen($match));
+		return array($content, $match);
+	}
+	
 	/**
 	 * Reads stuff from the resource either as long as the stuff matches the `$tokens`
 	 * (`$while_or_until` is set to `MATCH_WHILE`) or as long as it does not match

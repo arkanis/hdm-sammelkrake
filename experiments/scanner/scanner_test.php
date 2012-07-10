@@ -96,6 +96,14 @@ context('Scanner', function(){
 		});
 	});
 	
+	context('until_and function', function(){
+		test('should consume input until one of the tokens and the matching token, too', function(){
+			$scan = new Scanner("name: foo\n  end\n  ");
+			assert_equal($scan->until_and("\n"), array("name: foo", "\n"));
+			assert_equal($scan->until_and(null), array("  end\n  ", null));
+		});
+	});
+	
 	context('peek function', function(){
 		test('should allow to peek for a tokens without consuming them', function(){
 			$scan = new Scanner('123');
