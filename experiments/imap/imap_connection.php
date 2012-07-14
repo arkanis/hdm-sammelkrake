@@ -41,8 +41,8 @@ class ImapConnection {
 			unset($options['log_file']);
 		}
 		
-		$ssl_context = stream_context_create($options);
-		$this->stream = stream_socket_client($uri, $errno, $errstr, $timeout, STREAM_CLIENT_CONNECT, $ssl_context);
+		$stream_context = stream_context_create($options);
+		$this->stream = stream_socket_client($uri, $errno, $errstr, $timeout, STREAM_CLIENT_CONNECT, $stream_context);
 		
 		if ($this->stream === false)
 			throw new ImapException("Could not open IMAP connection: $errstr ($errno)");
