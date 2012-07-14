@@ -1,3 +1,6 @@
+<?xml version='1.0'?>
+<stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='546e2a8d-c13b-47f4-8881-ba1486c17522' from='messi.mi.hdm-stuttgart.de' version='1.0' xml:lang='en'>
+<stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><starttls xmlns='urn:ietf:params:xml:ns:xmpp-tls'/><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>LOGIN</mechanism></mechanisms></stream:features>
 <message from='romeo@montague.net/orchard' to='juliet@capulet.com'>
   <body>
     O blessed, blessed night! I am afeard.
