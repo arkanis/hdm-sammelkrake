@@ -211,10 +211,9 @@ foreach($roster->query->item as $item){
 // Exchanging Presence Information: http://xmpp.org/rfcs/rfc6121.html#presence
 // negative priority of prevents us from receiving any offline messages: http://xmpp.org/extensions/xep-0160.html#flow
 $xmpp->send("<presence><priority>-1</priority></presence>");
-$ms_waited = 0;
 $started = microtime(true);
-$max_wait_time = 0.200;
-$pres_count = 0;
+$max_wait_time = 0.020;
+$presence_stanzas = array();
 do {
 	list($read, $write, $except) = array(array($xmpp->stream), null, null);
 	//echo("waiting on stream_select\n");
@@ -223,37 +222,35 @@ do {
 	if ($rest_wait_time <= 0)
 		break;
 	$changed = stream_select($read, $write, $except, 0, $rest_wait_time * 1000000);
-	if ($changed == 1){
-		//echo("recving\n");
-		$presence = simplexml_load_string($xmpp->receive());
-		list($jid, ) = explode('/', $presence['from'], 2);
-		if ( isset($contacts[$jid]) ){
-			if ($presence['type'] == 'unavailable') {
-				$contacts[$jid]['show'] = 'unavailable';
-			} else {
-				if ($presence->show)
-					$contacts[$jid]['show'] = $presence->show;
-				else
-					$contacts[$jid]['show'] = 'available';
-				
-				if ($presence->status)
-					$contacts[$jid]['status'] = $presence->status;
-			}
-		}
-		
-		$pres_count++;
-	}
+	if ($changed == 1)
+		$presence_stanzas[] = $xmpp->receive();
 } while ($changed == 1);
-printf("Received $pres_count presences in %.3fs\n", microtime(true) - $started);
 
 $xmpp->send("<presence type='unavailable' />");
-
 $stanzas = $xmpp->end_xml_stream();
-foreach($stanzas as $stanza)
-	echo("$stanza\n");
+$presence_stanzas = array_merge($presence_stanzas, $stanzas);
+printf("Received %d presences in %.3fs\n", count($presence_stanzas), microtime(true) - $started);
+
+foreach($presence_stanzas as $stanza){
+	$presence = simplexml_load_string($stanza);
+	list($jid, ) = explode('/', $presence['from'], 2);
+	if ( isset($contacts[$jid]) ){
+		if ($presence['type'] == 'unavailable') {
+			$contacts[$jid]['show'] = 'unavailable';
+		} else {
+			if ($presence->show)
+				$contacts[$jid]['show'] = $presence->show;
+			else
+				$contacts[$jid]['show'] = 'available';
+			
+			if ($presence->status)
+				$contacts[$jid]['status'] = $presence->status;
+		}
+	}
+}
 
 foreach($contacts as $jid => $contact){
-	if ($contact['show'] == 'unavailable')
+	if ($contact['show'] == 'unavailable' or $contact['show'] == 'unknown')
 		continue;
 	
 	echo("- {$contact['name']} ({$contact['show']}, $jid)\n");
