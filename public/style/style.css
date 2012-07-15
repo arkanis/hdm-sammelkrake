@@ -1,0 +1,72 @@
+body { margin: 0; padding: 0; }
+header { margin: 0; padding: 0; }
+
+body { font-size: small; font-family: sans-serif; background: hsl(0, 0%, 15%); }
+
+header { margin: 0; padding: 1em; color: white; /*background: hsl(347, 100%, 43%); box-shadow: 0 0 5px hsl(347, 100%, 43%);*/ text-shadow: 0 0 2px gray; }
+header > h1 { margin: 0; padding: 0; }
+header > h1 > a { color: inherit; text-decoration: none; }
+header > h1 > a:hover, header > h1 > a:focus, header > h1 > a:active { text-decoration: underline; }
+header > p { margin: 0; padding: 0; }
+
+header > ul#legend { overflow: hidden; width: 45em; position: absolute; top: 1em; right: 0;
+	margin: 0; padding: 0; list-style: none; font-size: 0.77em; }
+header > ul#legend > li { float: left; width: 15em; min-height: 2.75em; box-sizing: border-box;
+	margin: 0.125em 0; padding: 0 1em 0 2em; position: relative; }
+header > ul#legend > li::before { content: ''; position: absolute; left: 0; top: 0.25em; width: 1.5em; height: 1em; border-radius: 3px; }
+
+
+section { margin: 10px 0 0 10px; padding: 10px; position: relative; }
+article { box-sizing: border-box; -moz-box-sizing: border-box; padding: 3px; overflow: auto; border-radius: 5px; }
+
+article { background: #5c4566; }
+article.official, ul#legend > li.official::before { background: #ce5c00; }
+article.official.changing, ul#legend > li.official.changing::before { background: #a40000; }
+article.social, ul#legend > li.social::before { background: #4e9a06; }
+article.events, ul#legend > li.events::before {background: #204a87; }
+article.projects, ul#legend > li.projects::before {background: #5c4566; }
+
+article { color: hsl(0, 0%, 90%); text-shadow: 1px 1px 1px black; }
+article a { color: inherit; text-decoration: none; }
+article a:hover, article a:focus, article a:active { color: hsl(0, 0%, 100%); text-shadow: 1px 1px 1px black, 0 0 2px white; }
+article small { font-size: 0.77em; text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.5); }
+article h2 { font-size: inherit; margin: 0 0 0.5em 0; padding: 0; }
+article ul { margin: 0.5em 0; padding: 0 0 0 1em; list-style: none; }
+article ul > li { position: relative; }
+article ul > li::before { content: '•'; position: absolute; left: -0.9em; top: 0; }
+article ul > li > small { display: block; }
+article ul > li > ul { margin: 0.125em 0 0.5em 0; }
+article p { margin: 0.5em 0; }
+
+article span.count { font-size: 0.77em; vertical-align: 0.15em; padding: 0 0.5em; background: hsl(0, 0%, 85%); border-radius: 5px; color: hsl(0, 0%, 15%); text-shadow: 1px 1px 1px hsl(0, 0%, 100%); }
+article a:hover span.count, article a:focus span.count, article a:active span.count { background: white; }
+
+article#official-news ul:first-of-type { line-height: 1.4; }
+article#official-news ul:first-of-type a { display: block; white-space: pre; text-overflow: ellipsis; overflow: hidden; }
+article#official-news ul:nth-of-type(2) { margin: 0; padding: 0; }
+article#official-news ul:nth-of-type(2) li { display: inline; margin: 0 1em 0 0; padding: 0; }
+article#official-news ul:nth-of-type(2) li::before { content: ''; }
+
+article#official-working-stuff li, article#official-infos li { margin: 0.25em 0; }
+
+article#schedule table { table-layout: fixed; border-collapse: collapse; }
+article#schedule table tr > *:nth-child(1) { width: 35px; padding-right: 5px; }
+article#schedule table tr > *:nth-child(1n + 2) { width: 90px; }
+article#schedule table tr:nth-child(1n + 2) { height: 45px; }
+
+article#schedule table th { font-weight: normal; }
+article#schedule table tr > th:first-child { text-align: right; }
+article#schedule table td { padding: 1px; border: 1px solid hsla(0, 0%, 100%, 0.2); }
+article#schedule table td.changed { font-weight: bold; background: hsla(0, 0%, 100%, 0.1); }
+article#schedule table td > a { display: block; width: 88px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+article#schedule table tr:nth-child(5) td { background: hsla(0, 0%, 0%, 0.1); }
+
+article#project-activities dl { margin: 0.5em 0; padding: 0; }
+article#project-activities dl dt {}
+
+article#recordings ul > li > a, article#recordings ul > li > small { display: inline; }
+article#recordings ul ul { font-size: 0.77em; }
+article#recordings ul ul a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
+
+article#publications li a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
