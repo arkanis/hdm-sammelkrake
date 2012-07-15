@@ -75,7 +75,7 @@ jQuery.fn.grid = function(options){
 	var update_weights = function(x, y, w, h){
 		for(var i = 0; i < cells.length; i++)
 			if (typeof cells[i] == 'number')
-				cells[i] -= opts.cooldown;
+				cells[i] = (cells[i] - opts.cooldown > 0) ? cells[i] - opts.cooldown : 0;
 		
 		inc_at(x - 1, y - 1, opts.weights.edge);
 		inc_at(x + w, y - 1, opts.weights.edge);
