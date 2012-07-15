@@ -1,3 +1,8 @@
+<?php
+
+const ROOT_PATH = '..';
+
+?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -30,7 +35,7 @@
 <section>
 
 <? foreach( glob('../tiles/*.php') as $tile ): ?>
-<?	include($tile) ?>
+<?	include($tile) ?> 
 <?	flush() ?>
 <? endforeach ?>
 

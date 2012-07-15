@@ -70,3 +70,19 @@ article#recordings ul ul { font-size: 0.77em; }
 article#recordings ul ul a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
 
 article#publications li a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
+
+/* Messi tile, uses the Ubuntu Mono icons: https://launchpad.net/ubuntu/quantal/+source/ubuntu-mono (CC BY-SA 3.0) */
+article#messi ul { padding: 0; }
+article#messi ul ul { margin: -1px 0 0.5em 0; padding: 0 0 0 22px; border-top: 1px solid hsla(0, 0%, 100%, 0.25); }
+article#messi ul ul > li { margin: 0.25em 0px; }
+article#messi ul li::before { content: ' '; left: -20px; top: 1px; width: 16px; height: 16px; background-repeat: no-repeat; }
+article#messi li.available::before { background-image: url(empathy-available.svg); }
+article#messi li.away::before { background-image: url(empathy-away.svg); }
+article#messi li.chat::before { background-image: url(empathy-available.svg); } /* The entity or resource is actively interested in chatting */
+article#messi li.dnd::before { background-image: url(empathy-busy.svg); } /* The entity or resource is busy (dnd = "Do Not Disturb") */
+article#messi li.xa::before { background-image: url(empathy-extended-away.svg); } /* The entity or resource is away for an extended period (xa = "eXtended Away") */
+article#messi li.unavailable::before { background-image: url(empathy-offline.svg); }
+
+
+
+
