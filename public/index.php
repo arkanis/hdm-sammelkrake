@@ -37,7 +37,6 @@ require_once(ROOT_PATH . '/include/view_helpers.php');
 
 <? foreach( glob('../tiles/*.php') as $tile ): ?>
 <?	include($tile) ?> 
-<?	flush() ?>
 <? endforeach ?>
 
 </section>

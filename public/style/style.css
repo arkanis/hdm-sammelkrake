@@ -69,7 +69,7 @@ article#recordings ul > li > a, article#recordings ul > li > small { display: in
 article#recordings ul ul { font-size: 0.77em; }
 article#recordings ul ul a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
 
-article#publications li a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
+article#publications li a, article#events li a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: pre; }
 
 /* Messi tile, uses the Ubuntu Mono icons: https://launchpad.net/ubuntu/quantal/+source/ubuntu-mono (CC BY-SA 3.0) */
 article#messi ul { padding: 0; }
