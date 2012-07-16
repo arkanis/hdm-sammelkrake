@@ -97,14 +97,14 @@ ksort($groups);
 	<ul>
 <?	foreach($groups as $name => $members): ?>
 		<li>
-			<?= $name ?>
+			<?= h($name) ?>
 			<ul>
 <?			foreach($members as $jid): ?>
 <?				$contact = $contacts[$jid] ?>
-				<li class="<?= $contact['status'] ?>">
-					<span title="<?= $jid ?>"><?= $contact['name'] ?></span>
+				<li class="<?= ha($contact['status']) ?>">
+					<span title="<?= ha($jid) ?>"><?= h($contact['name']) ?></span>
 					<? if($contact['message']): ?>
-					<small><?= $contact['message'] ?></small>
+					<small><?= h($contact['message']) ?></small>
 					<? endif ?>
 				</li>
 <?			endforeach ?>

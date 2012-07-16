@@ -1,6 +1,7 @@
 <?php
 
 const ROOT_PATH = '..';
+require_once(ROOT_PATH . '/include/view_helpers.php');
 
 ?>
 <!DOCTYPE html>
