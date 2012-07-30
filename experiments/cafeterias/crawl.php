@@ -1,13 +1,18 @@
 <?php
 
 $dom = new DOMDocument();
-$dom->loadHTMLFile('http://www.s-bar.de/s-bar-hdm/speiseplan.html');
-//$dom->loadHTMLFile('sbar-speiseplan.html');
+//$dom->loadHTMLFile('http://www.s-bar.de/s-bar-hdm/speiseplan.html');
+$dom->loadHTMLFile('sbar-speiseplan.html');
 $xpath = new DOMXPath($dom);
 $sbar_text = $xpath->evaluate('string(//div[@class="content"])');
+// A Unicode aware trim. Required to get rid of stupid non-breaking spaces. Removes
+// any leading and trailing characters with the separator property. The docs state that
+// this is slow, but well. See http://de.php.net/manual/en/regexp.reference.unicode.php
+$sbar_text = preg_replace('/^\pZ*|\pZ*$/u', '', $sbar_text);
 
-$rss = simplexml_load_file('http://www.studentenwerk-stuttgart.de/speiseangebot_rss');
-//$rss = simplexml_load_file('mensa-rss.xml');
+
+//$rss = simplexml_load_file('http://www.studentenwerk-stuttgart.de/speiseangebot_rss');
+$rss = simplexml_load_file('mensa-rss.xml');
 $item = $rss->channel->item[0];
 
 $doc = new DOMDocument();
@@ -29,7 +34,7 @@ $names = $xpath->query('//tbody/tr/td[not(@class)]');
 
 <h1>S-Bar</h1>
 
-<p><?= trim($sbar_text) ?></p>
+<p><?= $sbar_text ?></p>
 
 <h1>Mensa</h1>
 
