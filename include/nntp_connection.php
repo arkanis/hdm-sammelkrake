@@ -78,7 +78,11 @@ class NntpConnection
 	 * TODO: Find a proper max length for a status response line
 	 */
 	function get_status_response(){
-		$status_line = stream_get_line($this->connection, 4096, "\r\n");
+		// stream_get_line() seems to be somehow broken. It drops the connection (returns an
+		// empty string) while waiting for the `mode reader` status response.
+		//$status_line = stream_get_line($this->connection, 4096, "\r\n");
+		$status_line = fgets($this->connection);
+		$status_line = rtrim($status_line, "\r\n");
 		$this->log('STATUS: ' . $status_line);
 		return explode(' ', $status_line, 2);
 	}
