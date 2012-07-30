@@ -84,13 +84,15 @@ class XmppConnection {
 	}
 	
 	/**
+	 * The entire purpose of this function is to read exactly one XML element (with sub elements)
+	 * and not a byte more. This way we don't block the network connection longer than necessary
+	 * (until the end tag is received). PHP does not seem to have an XML parser that can read from
+	 * open network connections.
+	 * 
 	 * This function just consumes a complete XML element including its sub elements and
 	 * end tag. It does not return them, just consumes the bytes from the scanner. This is
 	 * meant to be used with scanner capturing so you get the exact string that is consumed
 	 * by this function.
-	 * 
-	 * This function does not read over the end of an end tag. So it will not block a network
-	 * connection longer than necessary.
 	 */
 	function scan_elem($scan, $only_scan_opening_tag = false){
 		$spaces = function($t){ return ctype_space($t); };

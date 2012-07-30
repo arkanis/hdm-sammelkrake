@@ -3,3 +3,6 @@ AuthName	"Bitte melde dich mit deinem HdM-Account an"
 AuthBasicProvider	file
 AuthUserFile	/home/steven/projects/hdm-sammelkrake/local-passwd
 Require	valid-user
+
+RewriteEngine	on
+RewriteRule	^messi\.json$	messi\.json\.php	[last,qsappend,B]
