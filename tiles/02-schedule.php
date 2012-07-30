@@ -68,7 +68,7 @@
 			<th>17:45</th>
 			<td></td>
 			<td></td>
-			<td><a href="#" title="Sichere Systeme/W">Sichere Systeme/W</a> <small>in P03 <a href="#" title="1 Nachricht zu dieser Vorlesung seit letzter Vorlesung"><span class="count">1</span></a></small></a></td>
+			<td><a href="#" title="Sichere Systeme/W">Sichere Systeme/W</a> <small>in P03 <a href="#" title="1 Nachricht zu dieser Vorlesung seit letzter Vorlesung"><span class="count">1</span></a></small></td>
 			<td><a href="#" title="Design und Implementation fortgeschrittener Programmiersprachen/W">Design und Implementation fortgeschrittener Programmiersprachen/W</a> <small>in 137</small></td>
 			<td></td>
 			<td></td>
