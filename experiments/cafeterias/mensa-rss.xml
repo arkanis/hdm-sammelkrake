@@ -1,0 +1,2855 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xml:base="http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/table" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Studentenwerk Stuttgart</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/table</link>
+    <description></description>
+    <language>de</language>
+          <item>
+    <title>Speiseangebot vom 30. Juli 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-30-juli-2012</link>
+    <description>
+  &lt;div class=&quot;today&quot;&gt;
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Spaghetti Napoli mit fruchtiger Tomatensauce und Käse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; 1 Paar Saitenwürstchen auf Heckengäu-Linsen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Hähnchenbrust in grüner Pesto an buntem Salat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Curryreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Sommergemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Ananasquark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Aprikosen Joghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+  &lt;/div&gt;
+</description>
+     
+ 
+ <guid isPermaLink="false">1130 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 31. Juli 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-31-juli-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gyros vom Schwein mit Tzatziki und Steakhouse frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Hähnchenschnitzel &amp;quot;Mexiko&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Toskana Sticks im Tomatenbeet&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Teigwaren&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Steakhouse frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Gemüsereis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Romanesco&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schokoladenpudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Joghurt-Quarkspeise&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1131 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 1. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-1-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schweineschulter &amp;quot;Esterhazy&amp;quot; mit Rösti-Ecken&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tomaten-Mozzarella Teller mit Basilikumdressing&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.10&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Milchreis mit Apfelmus&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Petersilienkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Butterreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Country Potatoes&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kohlrabigemüse in Rahm&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Vanille Pudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Früchtemüsli&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1132 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 2. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-2-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Hähnchenfiletspitzen in Pfeffersauce mit Risi Bisi&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Maultaschenauflauf &amp;quot;Feinschmecker Art&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gnocchi-Nudeln &amp;quot;Puttanesca&amp;quot; mit Tomaten und Oliven&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Pariser Karotten&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Weiße Mousse au Chocolade&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Créme Brûlee&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1184 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 3. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-3-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gebackener Fleischkäse mit Zwiebeln und Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Paniertes Hokifilet an pikanter Frischkäsecreme mit Zitrone&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.10&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Curry Ananas-Taler auf Tomaten-Marillensauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Petersilienkartoffen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Country Potatoes&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Broccoli in Mandelbutter&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Waldbeerenquark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Käse-Sahne-Creme&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1134 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 6. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-6-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Andalusischer Gemüseteller mit Hähnchenbrust und Baguette&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Mini Frühlingsröllchen &amp;quot;Schoo Van&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schweinsbratwürstchen mit Sauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.10&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Butterreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kroketten&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Bratkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Balkangemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Apfelmus&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Himbeerjoghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1135 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 7. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-7-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Putengrillspieß auf Tagliatelle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Spanferkel in Malzbiersauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Lasagne &amp;quot;Vegetaria&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Semmelknödel&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Lauchgemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Heidelbeerjoghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Omas Grießflammerie&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1136 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 8. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-8-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Fleischküchle mit Champignonrahmsauce und Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Rindergulasch &amp;quot;Ungarische Art&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        13  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kreta-Sticks mit Tomatensauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Teigwaren&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Schnittlauchkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Sellerie-Mais-Gemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Erdbeerquark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kokos-Mandelpudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1137 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 9. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-9-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Hähnchenkeule mit Pommes frites und Ketchup&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Allgäuer Käsespätzle mit Röstzwiebeln garniert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tortellini mit Käsesauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Risoleekartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Buttererbsen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Birnen-Schokopudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Panna Cotta mit Erdbeermus&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1138 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 10. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-10-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Fischstäbchen vom Seelachs mit Kräutermayonnaise und Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffel &amp;quot;Cordon Bleu&amp;quot; auf Tomatenrahmsauce mit Broccoli&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.10&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gemüse-Nudelgratin Mediterran&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Steakhouse frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Chili Paprikagemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Vanillepudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Rote Grütze mit Sahne&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1139 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 13. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-13-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Cordon Bleu vom Schwein mit Kartoffel-Gurkensalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Vegetarisch gefüllte Paprika&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Lasagne Bolognaise mit Rinderhackfleisch&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        13  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Butterreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kaisergemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schokoladenmousse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Aprikosen-Joghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1145 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 14. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-14-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Pasta Carlici Tricolore &amp;quot;Don Alfredo&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Bunter Salatteller mit Geflügelstreifen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Maultaschen mit Schinkenstreifen und Käse überbacken&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Country Potatoes&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Ratatouille&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Creme Dessert &amp;quot;Haselnuß&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mandarinenquark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1146 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 15. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-15-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Hähnchenschlegel &amp;quot;Rajasthani&amp;quot; mit Sultaninenreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schweinebraten in Ruccola-Sauce und Parmesan&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tortelloni gelb/rot in pikanter Tomatensauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Teigwaren&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Petersilienkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Mais-Zucchinigemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Maracujajoghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Schokopudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1147 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 16. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-16-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schweinekotelette paniert mit Twisters und Krautsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Seelachsfilet Bordelaiser Art&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Karotten Vollkorn Rösti auf Käsesauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Butterreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffeln gedämpft&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Speckbohnen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        7  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kokos-Mandelpudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Erdbeer-Rhabarber-Mousse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1148 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 17. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-17-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Fleischkäse paniert mit Kartoffel-Gurkensalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gebratener Reis Siam&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Süße Schupfnudeln mit Apfelwürfel und Vanillesauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffeln gedämpft&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Butterreis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Blumenkohl gratiniert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Flammeri Holland Erdbeer&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kirsch Joghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1149 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 20. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-20-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Matjes in Sherrymarinade mit Butterkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Balkan-Grillteller&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        3, 8, 12, 15  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Penne di Semola mit Blattspinat und Hirtenkäse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Paprikareis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Country Potatoes&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Stangenbohnen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Apfelmus&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Früchtequark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1150 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 21. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-21-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Maultaschen geröstet mit Kräuterrührei&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        7, 12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Griechischer Bauernsalat mit Baguette&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Fleischpflanzerl auf Ratatouille&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Frühlingsgemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Vanillepudding mit Schokosauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Früchtemüsli&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1151 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 22. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-22-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schinkennudeln mit Ei geröstet&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Sauerbraten &amp;quot;Schwäbische Art&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        13  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Cannelloni &amp;quot;Spinaci&amp;quot; auf Tomatensauce mit geriebenem Käse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Thymian-Kartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffelklöße&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Fingermöhrchen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Karamellpudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Himbeerquark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1152 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 23. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-23-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Bio Currywurst mit Wellenschnitt Pommes&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Putensteak überbacken&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gemüsebällis &amp;quot;Mediterran&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Nudeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Schnittlauchkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Leipziger Allerlei&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schokopudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Schwarzwälderkirschcreme&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1153 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 24. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-24-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Spaghetti &amp;quot;Napoli&amp;quot; mit geriebenem Käse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffel &amp;quot;Cordon Bleu&amp;quot; auf Tomatensauce mit Broccoli&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.10&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Seelachs im Knuspermantel mit Remoulade&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.10&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffeln gedämpft&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Feine Erbsen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kirschjoghurt&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Grießflammeri&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1154 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 27. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-27-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Mini-Fleischkäselaib auf Zwiebelsauce mit Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        1, 7, 12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Gefüllte Fleischtäschle in pikanter Bärlauchsauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12, 13  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Reis-Gemüsepfanne &amp;quot;Andalucia&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Teigwaren&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Maisgemüse mit Champignon&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Ananas-Quarkcreme&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kirsch-Jogurt mit Schokosauce&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1085 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 28. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-28-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Hähnchennuggets mit Mayo-Dip und Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        1, 8, 15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Maultaschen mit Zwiebelschmälze&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Kartoffelgratin &amp;quot;Gärtnerin&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.50&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Dampfkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffelsalat&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Grünes Bohnengemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schokoladenpudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Waldbeerenquark&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1086 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 29. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-29-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Penne mit Rinderhackfleisch überbacken&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Paniertes Schweineschnitzel mit Bratensauce und Zitronenecke&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tofu-Taler mit Champignonfüllung&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Basmatireis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Steakhouse frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Karotten- und Erbsengemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Grießpudding&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Früchtemüsli&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1087 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 30. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-30-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Andalusischer Gemüseteller mit Hähnchenbrust und Baguette&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        15  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; 1 Paar Saiten mit Heckengäu-Linsen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.90&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        1, 7, 12  &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Polenta Käseschnitten&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Spätzle&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Kartoffelbällchen&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Coucous Gemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Himbeer-Sahne-Creme&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Creme Tiramisu&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1088 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  <item>
+    <title>Speiseangebot vom 31. August 2012</title>
+    <link>http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot/speiseangebot-vom-31-august-2012</link>
+    <description>
+
+&lt;table width='75%'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align='left' class=&quot;name&quot;&gt;Essen&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-student&quot;&gt;Student&lt;/th&gt;
+      &lt;th align='left' class=&quot;price-guest&quot;&gt;Gast&lt;/th&gt;
+      &lt;th align='left' class=&quot;food-additive&quot;&gt;Zusatzstoffe&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_soup field_cntn_mn_soup_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Suppe&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Tagessuppe&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.30&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;0.40&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot; class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_ml_plt field_cntn_mn_ml_plt_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Tellergericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Pleskavica mit Ajvar und Djuvec-Reis&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.20&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;4.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+        13  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_meal_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Schlemmerfilet &amp;quot;Broccoli&amp;quot;&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;2.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_meal field_cntn_mn_organic_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Bio-Gericht&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Älpler Rigatonelli&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;1.80&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;3.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Beilagen&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Petersilienkartoffeln&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.60&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_fixings field_cntn_mn_fixings_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pommes frites&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr class=&quot;field_cntn_mn_veg field_cntn_mn_veg_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Gemüse&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Sommergemüse&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_0&quot;&gt;
+  &lt;td colspan='4' valign='bottom' class=&quot;name&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;b&gt;Dessert&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='55%'&gt; Joghurt-Quark-Speise&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_1&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Pudding Erdbeergeschmack mit Dessertsauce Vanille&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+    Keine      &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class=&quot;field_cntn_mn_dessert field_cntn_mn_dessert_2&quot;&gt;
+  &lt;td valign='bottom' class=&quot;name&quot;&gt;Mensendessert&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-student&quot;&gt;0.70&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;price-guest&quot;&gt;1.00&lt;/td&gt;
+  &lt;td valign='bottom' class=&quot;food-additive&quot;&gt;
+          Keine      &lt;a href=&quot;/speiseangebot_rss#legend-&quot; class=&quot;active&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+  &lt;/tbody&gt;
+
+&lt;/table&gt;
+
+</description>
+     
+ 
+ <guid isPermaLink="false">1089 at http://www.studentenwerk-stuttgart.de</guid>
+  </item>
+  </channel>
+</rss>
