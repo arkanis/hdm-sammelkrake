@@ -30,6 +30,6 @@ ob_start();
 <?php
 
 // And store the captured output into the tile
-file_put_contents(ROOT_PATH . '/tiles/12-sbar.php', ob_get_clean());
+file_put_contents(dirname(__FILE__) . '/../tiles/12-sbar.php', ob_get_clean());
 
 ?>

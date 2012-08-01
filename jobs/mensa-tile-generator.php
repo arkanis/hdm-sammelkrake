@@ -1,7 +1,5 @@
 <?php
 
-const ROOT_PATH = '..';
-
 // Fetch and parse the Mensa RSS feed
 $rss = simplexml_load_file('http://www.studentenwerk-stuttgart.de/speiseangebot_rss');
 // Get the first (newest) news item. This should be the stuff for today.
@@ -37,6 +35,6 @@ ob_start();
 <?php
 
 // And store the captured output into the tile
-file_put_contents(ROOT_PATH . '/tiles/11-mensa.php', ob_get_clean());
+file_put_contents(dirname(__FILE__) . '/../tiles/11-mensa.php', ob_get_clean());
 
 ?>
