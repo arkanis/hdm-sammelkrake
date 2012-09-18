@@ -1,5 +1,6 @@
 <?php
 
+require_once(ROOT_PATH . '/include/config.php');
 require_once(ROOT_PATH . '/include/imap_connection.php');
 require_once(ROOT_PATH . '/include/nntp_connection.php');
 require_once(ROOT_PATH . '/include/mail_parser.php');
@@ -10,7 +11,7 @@ $messages = array();
 $imap_messages = 0;
 $nntp_messages = 0;
 
-$imap = new ImapConnection('tls://mail.hdm-stuttgart.de:993', 1, array(
+$imap = new ImapConnection($_CONFIG['imap']['url'], 1, array(
 	'log_file' => ROOT_PATH . '/logs/imap.log',
 	'ssl' => array( 'verify_peer' => false )
 ));
