@@ -162,7 +162,7 @@ class ImapConnection {
 	 * 	$user = 'someone';
 	 * 	$pass = 'secret';
 	 * 	$imap->with_sensitive_data(array($user, $pass), function() use($imap, $user, $pass) {
-	 * 		$imap->command("login $user $pw");
+	 * 		$imap->command("login $user $pass");
 	 * 	});
 	 */
 	function with_sensitive_data($data, $action){

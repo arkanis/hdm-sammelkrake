@@ -5,4 +5,4 @@ AuthUserFile	/home/steven/projects/hdm-sammelkrake/local-passwd
 Require	valid-user
 
 RewriteEngine	on
-RewriteRule	^messi\.json$	messi\.json\.php	[last,qsappend,B]
+RewriteRule	^([^/]+)\.json$	$1\.json\.php	[last,qsappend,B]
