@@ -79,4 +79,19 @@ uasort($messages, function($a, $b){
 		<li><a href="https://news.hdm-stuttgart.de/" title="<?= ha($nntp_messages) ?> ungelesene Nachrichten">Newsgroups <span class="count"><?= h($nntp_messages) ?></span></a></li>
 		<li><a href="https://www.hdm-stuttgart.de/studienangebot/pers_stundenplan/meldungen/" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
 	</ul>
+	<script>
+		$(document).ready(function(){
+			$('#official-news > ul:first-of-type > li > a').click(function(){
+				console.log($(this).attr('href'));
+				$.ajax($(this).attr('href') + '.json').done(function(data){
+					console.log(data);
+				});
+				return false;
+			});
+		});
+	</script>
+	<article>
+		<h3></h3>
+		<div></div>
+	</article>
 </article>
