@@ -8,7 +8,7 @@ require_once(ROOT_PATH . '/include/config.php');
 
 
 $nntp = new NntpConnection($_CONFIG['nntp']['url'], $_CONFIG['nntp']['timeout'], $_CONFIG['nntp']['options']);
-$nntp->authenticate($_CONFIG['nntp']['user'], $_CONFIG['nntp']['password']);
+$nntp->authenticate($_CONFIG['nntp']['prefetch']['user'], $_CONFIG['nntp']['prefetch']['password']);
 
 $start_date = date('Ymd His', time() - 60*60*24*7);
 $nntp->command('newnews hdm.mi.*-offiziell ' . $start_date, 230);
@@ -31,5 +31,7 @@ foreach(explode("\n", $new_message_ids) as $id){
 	);
 }
 $nntp->close();
+
+file_put_contents($_CONFIG['nntp']['prefetch']['cache_file'], serialize($messages));
 
 ?>

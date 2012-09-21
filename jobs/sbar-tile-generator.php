@@ -1,7 +1,5 @@
 <?php
 
-const ROOT_PATH = '..';
-
 // The SBar page contains stange HTML. Therefore load it with the DOM
 // parser that can handle broken HTML.
 $dom = new DOMDocument();

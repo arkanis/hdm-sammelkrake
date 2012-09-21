@@ -4,7 +4,6 @@ require_once(ROOT_PATH . '/include/config.php');
 require_once(ROOT_PATH . '/include/imap_connection.php');
 require_once(ROOT_PATH . '/include/nntp_connection.php');
 require_once(ROOT_PATH . '/include/mail_parser.php');
-require_once(ROOT_PATH . '/include/config.php');
 
 $user = $_SERVER['PHP_AUTH_USER'];
 $pass = $_SERVER['PHP_AUTH_PW'];
@@ -12,6 +11,17 @@ $messages = array();
 $imap_messages = 0;
 $nntp_messages = 0;
 
+//
+// First load the latest newsgroup messages fetched by the cron job
+//
+$serialized_data = file_get_contents($_CONFIG['nntp']['prefetch']['cache_file']);
+$messages = $serialized_data ? unserialize($serialized_data) : array();
+$nntp_messages = count($messages);
+
+
+//
+// Now fetch the IMAP messages
+//
 $imap = new ImapConnection($_CONFIG['imap']['url'], $_CONFIG['imap']['timeout'], $_CONFIG['imap']['options']);
 
 // TODO: properly escape/encode string fields (most importantly the password)
@@ -22,7 +32,7 @@ $imap->command('select inbox');
 
 list($search_resp) = $imap->command('search unseen');
 $numbers = explode(' ', $search_resp);
-array_shift($numbers); // throw away the "SEARCH"
+array_shift($numbers); // throw away the "SEARCH" in the response
 
 $resps = $imap->command('fetch ' . join(',', $numbers) . ' envelope');
 $imap->close();
@@ -41,35 +51,7 @@ foreach($resps as $resp){
 		'imap_message_num' => $number
 	);
 }
-$imap_messages = count($messages);
-
-
-$nntp = new NntpConnection($_CONFIG['nntp']['url'], $_CONFIG['nntp']['timeout'], $_CONFIG['nntp']['options']);
-$nntp->authenticate($user, $pass);
-
-$start_date = date('Ymd His', time() - 60*60*24*7);
-$nntp->command('newnews hdm.mi.*-offiziell ' . $start_date, 230);
-$new_message_ids = $nntp->get_text_response();
-
-// Query the dates of all new messages
-foreach(explode("\n", $new_message_ids) as $id){
-	$nntp->command('hdr subject ' . $id, 225);
-	list(,$subject) = explode(' ', $nntp->get_text_response(), 2);
-	$nntp->command('hdr date ' . $id, 225);
-	list(,$date) = explode(' ', $nntp->get_text_response(), 2);
-	$nntp->command('hdr from ' . $id, 225);
-	list(,$from) = explode(' ', $nntp->get_text_response(), 2);
-	
-	$messages[] = array(
-		'date' => MailParser::parse_date($date),
-		'subject' => MailParser::decode_words($subject),
-		'from' => reset(MailParser::split_from_header(MailParser::decode_words($from))),
-		'nntp_message_id' => $id
-	);
-}
-$nntp->close();
-$nntp_messages = count($messages) - $imap_messages;
-
+$imap_messages = count($messages) - $nntp_messages;
 
 
 // Sort message ids by date

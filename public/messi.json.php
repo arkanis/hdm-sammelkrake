@@ -1,16 +1,14 @@
 <?php
 
 const ROOT_PATH = '..';
+require_once(ROOT_PATH . '/include/config.php');
 require_once(ROOT_PATH . '/include/xmpp_connection.php');
 
 try {
 
 // First of connect to the XMPP server, start an encrypted channel and authenticate
 // TODO: error handling
-$xmpp = new XmppConnection('tcp://messi.mi.hdm-stuttgart.de:5222', 1, array(
-	'log_file' => ROOT_PATH . '/logs/xmpp.log',
-	'ssl' => array( 'verify_peer' => false )
-));
+$xmpp = new XmppConnection($_CONFIG['messi']['url'], $_CONFIG['messi']['timeout'], $_CONFIG['messi']['options']);
 $xmpp->start_tls();
 $xmpp->auth_plain($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']);
 
