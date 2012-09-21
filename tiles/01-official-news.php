@@ -4,6 +4,7 @@ require_once(ROOT_PATH . '/include/config.php');
 require_once(ROOT_PATH . '/include/imap_connection.php');
 require_once(ROOT_PATH . '/include/nntp_connection.php');
 require_once(ROOT_PATH . '/include/mail_parser.php');
+require_once(ROOT_PATH . '/include/config.php');
 
 $user = $_SERVER['PHP_AUTH_USER'];
 $pass = $_SERVER['PHP_AUTH_PW'];
@@ -11,10 +12,7 @@ $messages = array();
 $imap_messages = 0;
 $nntp_messages = 0;
 
-$imap = new ImapConnection($_CONFIG['imap']['url'], 1, array(
-	'log_file' => ROOT_PATH . '/logs/imap.log',
-	'ssl' => array( 'verify_peer' => false )
-));
+$imap = new ImapConnection($_CONFIG['imap']['url'], $_CONFIG['imap']['timeout'], $_CONFIG['imap']['options']);
 
 // TODO: properly escape/encode string fields (most importantly the password)
 $imap->with_sensitive_data($pass, function() use($imap, $user, $pass) {
@@ -46,9 +44,7 @@ foreach($resps as $resp){
 $imap_messages = count($messages);
 
 
-$nntp = new NntpConnection('tls://news.hdm-stuttgart.de:563', 1, array(
-	'ssl' => array( 'verify_peer' => false )
-));
+$nntp = new NntpConnection($_CONFIG['nntp']['url'], $_CONFIG['nntp']['timeout'], $_CONFIG['nntp']['options']);
 $nntp->authenticate($user, $pass);
 
 $start_date = date('Ymd His', time() - 60*60*24*7);
@@ -97,8 +93,8 @@ uasort($messages, function($a, $b){
 		<li><a href="#" title="Geplanter Vortrag von Herrn Kampe fällt aus, am 18.6 15:33 Uhr von Prof. Walter Kriha">Geplanter Vortrag von Herrn Kampe fällt aus</a></li>
 	</ul>
 	<ul>
-		<li><a href="#" title="<?= ha($imap_messages) ?> ungelesene Nachrichten">HdM Mails <span class="count"><?= h($imap_messages) ?></span></a></li>
-		<li><a href="#" title="<?= ha($nntp_messages) ?> ungelesene Nachrichten">Newsgroups <span class="count"><?= h($nntp_messages) ?></span></a></li>
-		<li><a href="#" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
+		<li><a href="https://mail.hdm-stuttgart.de/" title="<?= ha($imap_messages) ?> ungelesene Nachrichten">HdM Mails <span class="count"><?= h($imap_messages) ?></span></a></li>
+		<li><a href="https://news.hdm-stuttgart.de/" title="<?= ha($nntp_messages) ?> ungelesene Nachrichten">Newsgroups <span class="count"><?= h($nntp_messages) ?></span></a></li>
+		<li><a href="https://www.hdm-stuttgart.de/studienangebot/pers_stundenplan/meldungen/" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
 	</ul>
 </article>

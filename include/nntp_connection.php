@@ -10,12 +10,19 @@ class NntpConnection
 {
 	private $connection;
 	private $nntp_command_filter;
+	private $sensitive_data = null;
+	private $log_file = null;
 	
 	/**
 	 * Opens a NNTP connection to the specified `$uri`. Also checks the initial server
 	 * ready status response.
 	 */
 	function __construct($uri, $timeout, $options = array()){
+		if ( isset($options['log_file']) ){
+			$this->log_file = $options['log_file'];
+			unset($options['log_file']);
+		}
+		
 		$ssl_context = stream_context_create($options);
 		$this->connection = stream_socket_client($uri, $errno, $errstr, $timeout, STREAM_CLIENT_CONNECT, $ssl_context);
 		
@@ -53,14 +60,6 @@ class NntpConnection
 			$this->close();
 	}
 	
-	/**
-	 * Logs the NNTP traffic for debugging.
-	 * 
-	 * USE WITH CAUTION: User credentials are also logged by this function!
-	 */
-	private function log($message){
-		file_put_contents('../logs/nntp.log', $message . "\n", FILE_APPEND);
-	}
 	
 	/**
 	 * Closes the NNTP connection.
@@ -230,6 +229,50 @@ class NntpConnection
 		$this->command('authinfo user ' . $user, 381);
 		list($status,) = $this->command('authinfo pass ' . $password, array(281, 481));
 		return ($status == 281);
+	}
+	
+	
+	
+	/**
+	 * Informs the connection that you're working with a piece of sensitive data. While `$action`
+	 * executes this data is removed from all logging that might is done by the connection. After
+	 * `$action` has finished the connection completly forgets about the sensitive data.
+	 * 
+	 * The `$data` parameter can either be a string or an array of strings. In case of the array
+	 * all values are removed from the log.
+	 * 
+	 * Use this for example when sending an `login` command. Otherwise the user credentials
+	 * might be logged to a file if logging is enabled (see the `log_file` option of the constructor).
+	 * 
+	 * 	$user = 'someone';
+	 * 	$pass = 'secret';
+	 * 	$nntp->with_sensitive_data(array($user, $pass), function() use($imap, $user, $pass) {
+	 * 		$nntp->command("authinfo user $user", 381);
+	 * 		$nntp->command("authinfo pass $pass", array(281, 481));
+	 * 	});
+	 */
+	function with_sensitive_data($data, $action){
+		$this->sensitive_data = $data;
+		$action();
+		$this->sensitive_data = null;
+	}
+	
+	/**
+	 * Appends `$data` to the file specified in the constructors `log_file` option. If it was not
+	 * set no logging is done. Sensitive data stored in `$this->sensitive_data` is removed from
+	 * the log (replaced with '[removed]').
+	 */
+	private function log($data){
+		if (!$this->log_file)
+			return;
+		if ($this->sensitive_data){
+			if ( is_string($this->sensitive_data) )
+				$data = str_replace($this->sensitive_data, '[removed]', $data);
+			elseif ( is_array($this->sensitive_data) )
+				foreach($this->sensitive_data as $piece)
+					$data = str_replace($piece, '[removed]', $data);
+		}
+		file_put_contents($this->log_file, $data, FILE_APPEND);
 	}
 }
 
