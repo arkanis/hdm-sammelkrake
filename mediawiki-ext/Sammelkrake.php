@@ -1,5 +1,26 @@
 <?php
 
+/**
+ * HdM Sammelkrake tile export extention for MediaWiki v1 by Stephan Soller
+ * 
+ * This extention allows to maintain tiles of the Sammelkrake via a MediaWiki. That's useful for content that doesn't
+ * change that often. Whenever a page is saved and its title starts with `$wgSammelkrakePagePrefix` this extention
+ * examins the page and creates tiles out of it. Each H2 heading starts a new tile and the heading text is used as the
+ * tile name.
+ * 
+ * # Configuration options
+ * 
+ * `$wgSammelkrakePagePrefix`: All pages which's title starts with this string (including namespaces, etc.) are exported to tiles.
+ * `$wgSammelkrakeTileDir`: The directory the tiles are written to.
+ * `$wgSammelkrakeTileSuffix`: A string that is appended to each tile written by the extention. Is primarily used to avoid overwriting
+ *   standard tiles by adding a unique part to the filename, e.g. the `.wiki` in `.wiki.php`.
+ */
+
+// Default configuration
+$wgSammelkrakePagePrefix = 'Sammelkrake/';
+$wgSammelkrakeTileDir = '/tmp/sammelkrake/tiles';
+$wgSammelkrakeTileSuffix = '.wiki.php';
+
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => "Sammelkrake",
@@ -9,19 +30,22 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgHooks['ArticleSaveComplete'][] = 'sammelkrakeOnArticleSaveComplete';
-$wgSammelkrakeCategory = 'Sammelkrake';
-$wgSammelkrakeTileDir = '/tmp/sammelkrake/tiles';
-$wgSammelkrakeTileSuffix = '.wiki.php';
+
+function sammelkrakeSanitzieName($name){
+	return preg_replace('/[^\wäöüß]+/', '-', strtolower($name));
+}
 
 function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $minoredit,
 	$watchthis, $sectionanchor, &$flags, $revision, &$status, $baseRevId)
 {
-	global $wgSammelkrakeCategory, $wgSammelkrakeTileDir, $wgSammelkrakeTileSuffix;
+	global $wgSammelkrakePagePrefix, $wgSammelkrakeTileDir, $wgSammelkrakeTileSuffix;
 	
-	// Only process pages that are in our category
-	$category_name = reset(array_keys($article->getTitle()->getParentCategories()));
-	if ($category_name != "Category:$wgSammelkrakeCategory")
+	// Only process pages where the title starts with the configured prefix
+	$page_title = $article->getTitle()->getFullText();
+	if ( strpos($page_title, $wgSammelkrakePagePrefix) !== 0 )
 		return true;
+	
+	$page_rest_title = sammelkrakeSanitzieName( substr($page_title, strlen($wgSammelkrakePagePrefix)) );
 	
 	// Render the page
 	$parser_options = $article->makeParserOptions('canonical');
@@ -45,7 +69,7 @@ function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $m
 			// The HTML code of all following elements is added to the content until we find the next heading
 			$heading_content_node = $xpath->query('span[2]', $elem)->item(0);
 			$name = trim($xpath->evaluate('string(.)', $heading_content_node));
-			$sanitized_name = preg_replace('/[^\wäöüß]/', '-', strtolower($name));
+			$sanitized_name = sammelkrakeSanitzieName($name);
 			
 			if ( $xpath->evaluate('count(span) > 0', $heading_content_node) ) {
 				$attr_container = $xpath->query('span', $heading_content_node)->item(0);
@@ -77,7 +101,7 @@ function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $m
 			'<h2>' . utf8_decode($tile['title']) . '</h2>' .
 			utf8_decode($tile['content']) .
 		'</article>';
-		$filename = sprintf('%s/%02d-%s%s', $wgSammelkrakeTileDir, $index + 1, $sanitized_name, $wgSammelkrakeTileSuffix);
+		$filename = sprintf('%s/%s-%02d-%s%s', $wgSammelkrakeTileDir, $page_rest_title, $index + 1, $sanitized_name, $wgSammelkrakeTileSuffix);
 		file_put_contents($filename, $html);
 	}
 	
