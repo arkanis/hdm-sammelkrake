@@ -23,7 +23,7 @@ ul#legend > li[title] > span { border-bottom: 1px dotted gray; }
 
 
 /* basic tile layout */
-section#tiles { min-width: 920px; margin: 10px 0 0 10px; padding: 0; position: relative; }
+section#tiles { min-width: 920px; margin: 10px 0 10px 10px; padding: 0; position: relative; }
 section#tiles > article { box-sizing: border-box;  padding: 3px; overflow: auto; border-radius: 5px; }
 section#tiles > article { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 

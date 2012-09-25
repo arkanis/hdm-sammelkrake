@@ -67,7 +67,7 @@ uasort($messages, function($a, $b){
 	<ul>
 <?	foreach($messages as $message): ?>
 <?		if ( isset($message['imap_message_num']) ): ?>
-		<li><a href="imap/<?= urlencode($message['imap_message_num']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
+		<li><a href="mail/<?= urlencode($message['imap_message_num']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
 <?		else: ?>
 		<li><a href="newsgroup/<?= urlencode($message['nntp_message_id']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
 <?		endif ?>
@@ -82,13 +82,18 @@ uasort($messages, function($a, $b){
 	<script>
 		$(document).ready(function(){
 			$('#official-news > ul:first-of-type > li > a').click(function(){
-				console.log($(this).attr('href'));
-				$.ajax($(this).attr('href') + '.json').done(function(data){
+				$.ajax($(this).attr('href') + '.json', {dataType: 'json'}).done(function(data){
+					var d = new Date(data.date * 1000);
+					$('#official-news > article.template').clone().removeClass('template')
+						.find('h2').text(data.subject).end()
+						.find('p.details').text('Von ' + data.from + ' am ' + d.getDate() + '.' + d.getMonth() + '. ' + d.getHours() + ':' + d.getMinutes() + ' Uhr').end()
+						.find('div').html(data.body).end()
+						.replaceAll('#details > article');
+					
 					console.log(data);
+					$('#details').removeClass('inactive');
 				});
 				
-				$('#official-news > article.template').clone().removeClass('template').replaceAll('#details > article');
-				$('#details').removeClass('inactive');
 				return false;
 			});
 			
@@ -103,7 +108,7 @@ uasort($messages, function($a, $b){
 		});
 	</script>
 	<article class="template">
-		<h2>Game-Praktikum / Advanced Game Development (clarification about the limited number of participants)</h2>
+		<h2></h2>
 		<p class="details">Von Stefan Radicke am 20.09. 11:58 Uhr</p>
 		<div>
 			<p>Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen Gasse mitten im übel beleumundeten Hafenviertel? Gerade jetzt, wo er das Ding seines Lebens gedreht hatte und mit der Beute verschwinden wollte! Hatte einer seiner zahllosen Kollegen dieselbe Idee gehabt, ihn beobachtet und abgewartet, um ihn nun um die Früchte seiner Arbeit zu erleichtern?</p>
