@@ -109,12 +109,8 @@ uasort($messages, function($a, $b){
 	</script>
 	<article class="template">
 		<h2></h2>
-		<p class="details">Von Stefan Radicke am 20.09. 11:58 Uhr</p>
-		<div>
-			<p>Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen Gasse mitten im übel beleumundeten Hafenviertel? Gerade jetzt, wo er das Ding seines Lebens gedreht hatte und mit der Beute verschwinden wollte! Hatte einer seiner zahllosen Kollegen dieselbe Idee gehabt, ihn beobachtet und abgewartet, um ihn nun um die Früchte seiner Arbeit zu erleichtern?</p>
-			<p>Oder gehörten die Schritte hinter ihm zu einem der unzähligen Gesetzeshüter dieser Stadt, und die stählerne Acht um seine Handgelenke würde gleich zuschnappen?</p>
-			<p>Er konnte die Aufforderung stehen zu bleiben schon hören. Gehetzt sah er sich um. Plötzlich erblickte er den schmalen Durchgang.</p>
-		</div>
+		<p class="details"></p>
+		<div></div>
 		<p class="actions">
 			<a href="#">fertig gelesen</a>
 		</p>
