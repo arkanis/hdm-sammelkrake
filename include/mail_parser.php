@@ -12,6 +12,9 @@ class MailParser
 	static function for_text_and_attachments(&$message_data){
 		$events = array(
 			'message-header' => function($headers) use(&$message_data){
+				$message_data['subject'] = MailParser::decode_words($headers['subject']);
+				$message_data['date'] = MailParser::parse_date($headers['date']);
+				$message_data['from'] = MailParser::decode_words($headers['from']);
 				$message_data['newsgroup'] = trim(reset(explode(',', $headers['newsgroups'])));
 			},
 			'part-header' => function($headers, $content_type, $content_type_params) use(&$message_data){
