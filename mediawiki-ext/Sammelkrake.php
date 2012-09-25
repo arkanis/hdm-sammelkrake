@@ -75,6 +75,12 @@ function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $m
 				$attr_container = $xpath->query('span', $heading_content_node)->item(0);
 				if (!$attr_container->hasAttribute('id'))
 					$attr_container->setAttribute('id', $sanitized_name);
+				if (!$attr_container->hasAttribute('class'))
+					$attr_container->setAttribute('class', 'misc');
+				if (!$attr_container->hasAttribute('data-width'))
+					$attr_container->setAttribute('data-width', '2');
+				if (!$attr_container->hasAttribute('data-height'))
+					$attr_container->setAttribute('data-height', '1');
 				
 				// Convert the attribute container element (span) to HTML and transform it into an article
 				// start tag. Easier than doing it via the DOM API...
@@ -85,7 +91,7 @@ function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $m
 				// Remove the span element from the heading so we don't get it in the title HTML snippet
 				$heading_content_node->removeChild($attr_container);
 			} else {
-				$container_html = '<article id="' . $sanitized_name . '" data-width="2" data-height="1">';
+				$container_html = '<article id="' . $sanitized_name . '" class="misc" data-width="2" data-height="1">';
 			}
 			
 			$title = $doc->saveHTML($heading_content_node);
