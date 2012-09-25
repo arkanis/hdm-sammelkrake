@@ -22,7 +22,10 @@
 	<script src="jquery.grid.js"></script>
 	<script>
 		$(document).ready(function(){
-			$('ul').grid()//.triggerHandler('debug');
+			$('ul').grid();//.triggerHandler('debug');
+			$(window).resize(function(){
+				$('ul').grid();
+			});
 		});
 	</script>
 </head>

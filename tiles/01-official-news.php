@@ -77,7 +77,7 @@ uasort($messages, function($a, $b){
 	<ul>
 		<li><a href="https://mail.hdm-stuttgart.de/" title="<?= ha($imap_messages) ?> ungelesene Nachrichten">HdM Mails <span class="count"><?= h($imap_messages) ?></span></a></li>
 		<li><a href="https://news.hdm-stuttgart.de/" title="<?= ha($nntp_messages) ?> ungelesene Nachrichten">Newsgroups <span class="count"><?= h($nntp_messages) ?></span></a></li>
-		<li><a href="https://www.hdm-stuttgart.de/studienangebot/pers_stundenplan/meldungen/" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
+		<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
 	</ul>
 	<script>
 		$(document).ready(function(){
@@ -86,12 +86,32 @@ uasort($messages, function($a, $b){
 				$.ajax($(this).attr('href') + '.json').done(function(data){
 					console.log(data);
 				});
+				
+				$('#official-news > article.template').clone().removeClass('template').replaceAll('#details > article');
+				$('#details').removeClass('inactive');
+				return false;
+			});
+			
+			$('#details').click(function(e){
+				if (this === e.target)
+					$(this).addClass('inactive');
+			});
+			$('#details > article > p:last-child > a').live('click', function(){
+				$('#details').addClass('inactive');
 				return false;
 			});
 		});
 	</script>
-	<article>
-		<h3></h3>
-		<div></div>
+	<article class="template">
+		<h2>Game-Praktikum / Advanced Game Development (clarification about the limited number of participants)</h2>
+		<p class="details">Von Stefan Radicke am 20.09. 11:58 Uhr</p>
+		<div>
+			<p>Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen Gasse mitten im übel beleumundeten Hafenviertel? Gerade jetzt, wo er das Ding seines Lebens gedreht hatte und mit der Beute verschwinden wollte! Hatte einer seiner zahllosen Kollegen dieselbe Idee gehabt, ihn beobachtet und abgewartet, um ihn nun um die Früchte seiner Arbeit zu erleichtern?</p>
+			<p>Oder gehörten die Schritte hinter ihm zu einem der unzähligen Gesetzeshüter dieser Stadt, und die stählerne Acht um seine Handgelenke würde gleich zuschnappen?</p>
+			<p>Er konnte die Aufforderung stehen zu bleiben schon hören. Gehetzt sah er sich um. Plötzlich erblickte er den schmalen Durchgang.</p>
+		</div>
+		<p class="actions">
+			<a href="#">fertig gelesen</a>
+		</p>
 	</article>
 </article>
