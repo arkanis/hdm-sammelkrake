@@ -23,12 +23,13 @@ $names = $xpath->query('//tbody/tr/td[not(@class)]');
 ob_start();
 
 ?>
-<article id="mensa" class="social changing" data-width="2" data-height="1">
-	<h2><a href="<?= $item->link ?>">Mensa <?= $item->title ?></a></h2>
+<article id="mensa" class="misc changing" data-width="2" data-height="1">
+	<h2 title="<?= $item->title ?>"><a href="<?= $item->link ?>">Mensa <?= $item->title ?></a></h2>
 	
 	<ul>
 <?	foreach($names as $name): ?>
-		<li><?= trim( $xpath->evaluate('string(.)', $name) ) ?></li>
+<?		$display_name = trim($xpath->evaluate('string(.)', $name)) ?>
+		<li><span title="<?= $display_name ?>"><?= $display_name ?></span></li>
 <?	endforeach ?>
 	</ul>
 </article>

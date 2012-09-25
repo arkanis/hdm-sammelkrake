@@ -32,7 +32,7 @@ section#tiles > article { background: #204a87; }
 section#tiles > article.official, ul#legend > li.official::before { background: #ce5c00; }
 section#tiles > article.official.changing, ul#legend > li.official.changing::before { background: #a40000; }
 section#tiles > article.social, ul#legend > li.social::before { background: #4e9a06; }
-section#tiles > article.events, ul#legend > li.events::before {background: #204a87; }
+section#tiles > article.misc, ul#legend > li.misc::before {background: #204a87; }
 section#tiles > article.projects, ul#legend > li.projects::before {background: #5c4566; }
 
 section#tiles > article {  }
@@ -99,6 +99,12 @@ article#messi li.unavailable::before, article#messi li.unknown::before { backgro
 article#messi.loading > ul::before, article#messi.failed > ul::before { display: block; padding: 5em 3em; text-align: center; font-size: 0.77em; }
 article#messi.loading > ul::before { content: 'Krake sammelt Kontakte…'; }
 article#messi.failed > ul::before { content: 'Sorry, die Krake hat gerade keine Lust. Maschienen machen manchmal komische Dinge. Bitte lad die Seite einfach noch mal neu…'; }
+
+
+article#mensa {}
+article#mensa h2 > a { display: block; overflow: hidden; white-space: pre; text-overflow: ellipsis; }
+article#mensa ul > li { margin: 0.125em 0; }
+article#mensa ul > li > span { display: block; white-space: pre; overflow: hidden; text-overflow: ellipsis; }
 
 
 /* details overlay */

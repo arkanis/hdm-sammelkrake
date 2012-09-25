@@ -32,7 +32,7 @@ require_once(ROOT_PATH . '/include/view_helpers.php');
 		<li class="official" title="Informationsquellen für dein Studium"><span>Offizielle Informationsquellen</span></li>
 		<li class="social"><span>Soziales</span></li>
 		<li class="projects" title="z.B. Projekte"><span>Eigene Aktivitäten</span></li>
-		<li class="events"><span>Events, Veröffentlichungen, …</span></li>
+		<li class="misc"><span>Sonstiges</span></li>
 	</ul>
 </header>
 

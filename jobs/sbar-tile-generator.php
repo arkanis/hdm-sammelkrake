@@ -20,7 +20,7 @@ $sbar_text = preg_replace('/^[\pZ\pC]*|[\pZ\pC]*$/u', '', $sbar_text);
 ob_start();
 
 ?>
-<article id="sbar" class="social changing" data-width="2" data-height="1">
+<article id="sbar" class="misc changing" data-width="2" data-height="1">
 	<h2><a href="http://www.s-bar.de/s-bar-hdm/speiseplan.html">S-Bar</a></h2>
 	
 	<p><?= $sbar_text ?></p>
