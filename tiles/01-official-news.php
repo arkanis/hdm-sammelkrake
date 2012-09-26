@@ -14,7 +14,7 @@ $nntp_messages = 0;
 //
 // First load the latest newsgroup messages fetched by the cron job
 //
-$serialized_data = file_get_contents($_CONFIG['nntp']['prefetch']['cache_file']);
+$serialized_data = @file_get_contents($_CONFIG['nntp']['prefetch']['cache_file']);
 $messages = $serialized_data ? unserialize($serialized_data) : array();
 $nntp_messages = count($messages);
 
@@ -34,23 +34,26 @@ list($search_resp) = $imap->command('search unseen');
 $numbers = explode(' ', $search_resp);
 array_shift($numbers); // throw away the "SEARCH" in the response
 
-$resps = $imap->command('fetch ' . join(',', $numbers) . ' envelope');
-$imap->close();
-
-//echo("Unread messages:\n");
-foreach($resps as $resp){
-	list($number, $fetch, $data) = explode(' ', $resp, 3);
-	$structure = ImapConnection::parse_assoc_imap_struct($data);
-	// Envelope structure from http://tools.ietf.org/html/rfc3501#page-85
-	list($date, $subject, $from, $sender, $reply_to, $to, $cc, $bcc, $in_reply_to, $message_id) = $structure['envelope'];
-	//printf("- %s: %s from %s at %s\n", $number, MailParser::decode_words($subject), MailParser::decode_words($from[0][0]), date('Y-m-d G:i', strtotime($date)));
-	$messages[] = array(
-		'date' => strtotime($date),
-		'subject' => MailParser::decode_words($subject),
-		'from' => MailParser::decode_words($from[0][0]),
-		'imap_message_num' => $number
-	);
+if (count($numbers) > 0) {
+	$resps = $imap->command('fetch ' . join(',', $numbers) . ' envelope');
+	
+	//echo("Unread messages:\n");
+	foreach($resps as $resp){
+		list($number, $fetch, $data) = explode(' ', $resp, 3);
+		$structure = ImapConnection::parse_assoc_imap_struct($data);
+		// Envelope structure from http://tools.ietf.org/html/rfc3501#page-85
+		list($date, $subject, $from, $sender, $reply_to, $to, $cc, $bcc, $in_reply_to, $message_id) = $structure['envelope'];
+		//printf("- %s: %s from %s at %s\n", $number, MailParser::decode_words($subject), MailParser::decode_words($from[0][0]), date('Y-m-d G:i', strtotime($date)));
+		$messages[] = array(
+			'date' => strtotime($date),
+			'subject' => MailParser::decode_words($subject),
+			'from' => MailParser::decode_words($from[0][0]),
+			'imap_message_num' => $number
+		);
+	}
 }
+
+$imap->close();
 $imap_messages = count($messages) - $nntp_messages;
 
 
