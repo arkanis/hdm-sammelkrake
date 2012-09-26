@@ -75,12 +75,11 @@ uasort($messages, function($a, $b){
 		<li><a href="newsgroup/<?= urlencode($message['nntp_message_id']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
 <?		endif ?>
 <?	endforeach ?>
-		<li><a href="#" title="Geplanter Vortrag von Herrn Kampe fällt aus, am 18.6 15:33 Uhr von Prof. Walter Kriha">Geplanter Vortrag von Herrn Kampe fällt aus</a></li>
 	</ul>
 	<ul>
 		<li><a href="https://mail.hdm-stuttgart.de/" title="<?= ha($imap_messages) ?> ungelesene Nachrichten">HdM Mails <span class="count"><?= h($imap_messages) ?></span></a></li>
 		<li><a href="https://news.hdm-stuttgart.de/" title="<?= ha($nntp_messages) ?> ungelesene Nachrichten">Newsgroups <span class="count"><?= h($nntp_messages) ?></span></a></li>
-		<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="2 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">2</span></a></li>
+		<!--<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="0 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">0</span></a></li>-->
 	</ul>
 	<script>
 		$(document).ready(function(){
