@@ -15,7 +15,7 @@ require_once(ROOT_PATH . '/include/view_helpers.php');
 	<script>
 		$(document).ready(function(){
 			$(window).resize(function(){
-				$('section').grid({ 'cell-width': 145, 'cell-height': 200, 'cell-spacing': 10 });//.triggerHandler('debug');
+				$('section').grid({ 'cell-width': 145, 'cell-height': 200, 'cell-spacing': 10 })//.triggerHandler('debug');
 			});
 			$(window).resize();
 		});
