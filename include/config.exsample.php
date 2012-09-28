@@ -13,7 +13,13 @@ $_CONFIG = array(
 			'user' => '...',
 			'password' => '...',
 			'cache_file' => ROOT_PATH . '/cache/nntp_newest_messages'
-		)
+		),
+		
+		// The groups messages will be shown from. Can't be a wildmat since the unread tracker
+		// also has to update the tracker data for each group.
+		'groups' => array('hdm.mi.mib-offiziell', 'hdm.mi.mmb-offiziell', 'hdm.mi.csm-offiziell'),
+		// Max age of the messages in seconds. Older messages are not shown.
+		'max_age' => 60*60*24*7  // 7 days
 	),
 	
 	'imap' => array(
