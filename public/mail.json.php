@@ -32,6 +32,15 @@ $imap->with_sensitive_data($pass, function() use($imap, $user, $pass) {
 $imap->command('select inbox');
 
 
+// Mark the message as read (seen) and exit if the `mark_read` param is set
+if( isset($_POST['mark_read']) ) {
+	$resps = $imap->command("store $num +flags (\\Seen)");
+	$imap->close();
+	header('HTTP/1.1 204 No Content');
+	exit(0);
+}
+
+
 //
 // Fetch the envelop to get the header information (subject, etc.)
 //

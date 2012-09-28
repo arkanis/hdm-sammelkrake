@@ -23,7 +23,6 @@ $nntp_messages = count($messages);
 // Ask the newsgroup frontend tracker if the newsgroup messages have already been read by the user
 //
 $message_ids = array_map(function($msg){ return $msg['nntp_message_id']; }, $messages);
-$groups = array('hdm.mi.mib-offiziell', 'hdm.mi.mmb-offiziell', 'hdm.mi.csm-offiziell');
 
 $context = stream_context_create(array(
 	'ssl' => array('verify_peer' => false),
@@ -34,7 +33,7 @@ $context = stream_context_create(array(
 			'Authorization: Basic ' . base64_encode("$user:$pass"),
 			'Content-type: application/x-www-form-urlencoded'
 		),
-		'content' => http_build_query(array('id' => $message_ids, 'group' => $groups))
+		'content' => http_build_query(array('id' => $message_ids, 'group' => $_CONFIG['nntp']['groups']))
 	)
 ));
 $json_tracker_response = file_get_contents('https://news.hdm-stuttgart.de/has_read', false, $context);
@@ -113,9 +112,11 @@ uasort($messages, function($a, $b){
 	<script>
 		$(document).ready(function(){
 			$('#official-news > ul:first-of-type > li > a').click(function(){
-				$.ajax($(this).attr('href') + '.json', {dataType: 'json'}).done(function(data){
+				var href = $(this).attr('href');
+				$.ajax(href + '.json', {dataType: 'json'}).done(function(data){
 					var d = new Date(data.date * 1000);
 					$('#official-news > article.template').clone().removeClass('template')
+						.data('href', href)
 						.find('h2').text(data.subject).end()
 						.find('p.details').text('Von ' + data.from + ' am ' + d.getDate() + '.' + d.getMonth() + '. ' + d.getHours() + ':' + d.getMinutes() + ' Uhr').end()
 						.find('div').html(data.body).end()
@@ -132,10 +133,21 @@ uasort($messages, function($a, $b){
 				if (this === e.target)
 					$(this).addClass('inactive');
 			});
-			$('#details > article > p:last-child > a').live('click', function(){
+			$('#details > article > p.actions > a.close').live('click', function(){
 				$('#details').addClass('inactive');
 				return false;
 			});
+			$('#details > article > p.actions > a.read').live('click', function(){
+				var href = $(this).closest('article').data('href');
+				$.ajax(href + '.json', {type: 'POST', data: {mark_read: true}}).done(function(){
+					$('#details').addClass('inactive');
+					$('#official-news > ul:first-of-type > li > a').filter(function(){
+						return $(this).attr('href') == href;
+					}).closest('li').remove();
+				});
+				return false;
+			});
+
 		});
 	</script>
 	<article class="template">
@@ -143,7 +155,8 @@ uasort($messages, function($a, $b){
 		<p class="details"></p>
 		<div></div>
 		<p class="actions">
-			<a href="#">fertig gelesen</a>
+			<a href="#" class="close">ungelesen schließen</a>
+			<a href="#" class="read">fertig gelesen</a>
 		</p>
 	</article>
 </article>

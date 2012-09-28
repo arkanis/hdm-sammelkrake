@@ -10,8 +10,8 @@ require_once(ROOT_PATH . '/include/config.php');
 $nntp = new NntpConnection($_CONFIG['nntp']['url'], $_CONFIG['nntp']['timeout'], $_CONFIG['nntp']['options']);
 $nntp->authenticate($_CONFIG['nntp']['prefetch']['user'], $_CONFIG['nntp']['prefetch']['password']);
 
-$start_date = date('Ymd His', time() - 60*60*24*7);
-$nntp->command('newnews hdm.mi.*-offiziell ' . $start_date, 230);
+$start_date = date('Ymd His', time() - $_CONFIG['nntp']['max_age']);
+$nntp->command('newnews ' . join(',', $_CONFIG['nntp']['groups']) . ' ' . $start_date, 230);
 $new_message_ids = $nntp->get_text_response();
 
 // Query the dates of all new messages
