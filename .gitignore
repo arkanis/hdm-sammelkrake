@@ -1,4 +1,5 @@
 local-passwd
+include/config.php
 tiles/*.wiki.php
 tiles/11-mensa.php
 tiles/12-sbar.php
