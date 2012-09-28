@@ -20,6 +20,35 @@ $nntp_messages = count($messages);
 
 
 //
+// Ask the newsgroup frontend tracker if the newsgroup messages have already been read by the user
+//
+$message_ids = array_map(function($msg){ return $msg['nntp_message_id']; }, $messages);
+$groups = array('hdm.mi.mib-offiziell', 'hdm.mi.mmb-offiziell', 'hdm.mi.csm-offiziell');
+
+$context = stream_context_create(array(
+	'ssl' => array('verify_peer' => false),
+	'http' => array(
+		'method' => 'POST',
+		'user_agent' => 'HdM Sammelkrake/1.0',
+		'header' => array(
+			'Authorization: Basic ' . base64_encode("$user:$pass"),
+			'Content-type: application/x-www-form-urlencoded'
+		),
+		'content' => http_build_query(array('id' => $message_ids, 'group' => $groups))
+	)
+));
+$json_tracker_response = file_get_contents('https://news.hdm-stuttgart.de/has_read', false, $context);
+if ($json_tracker_response){
+	$read = json_decode($json_tracker_response, true);
+	$messages = array_filter($messages, function($msg) use($read) {
+		return ! $read[$msg['nntp_message_id']];
+	});
+}
+
+$nntp_messages = count($messages);
+
+
+//
 // Now fetch the IMAP messages
 //
 $imap = new ImapConnection($_CONFIG['imap']['url'], $_CONFIG['imap']['timeout'], $_CONFIG['imap']['options']);
