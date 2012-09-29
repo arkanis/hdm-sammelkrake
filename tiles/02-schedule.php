@@ -49,7 +49,7 @@ for($row_idx = 1; $row_idx < count($schedule->tr); $row_idx++){
 
 ?>
 <article id="schedule" class="official changing" data-width="4" data-height="2">
-	<h2>Stundenplan für diese Woche</h2>
+	<h2><a href="<?= ha($_CONFIG['schedule']['url']) ?>">Persönlicher Stundenplan für diese Woche</a></h2>
 	<table>
 		<tr>
 			<th></th>

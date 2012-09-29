@@ -98,19 +98,35 @@ uasort($messages, function($a, $b){
 	<ul>
 <?	foreach($messages as $message): ?>
 <?		if ( isset($message['imap_message_num']) ): ?>
-		<li><a href="mail/<?= urlencode($message['imap_message_num']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
+		<li class="mail"><a href="mail/<?= urlencode($message['imap_message_num']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
 <?		else: ?>
-		<li><a href="newsgroup/<?= urlencode($message['nntp_message_id']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
+		<li class="news"><a href="newsgroup/<?= urlencode($message['nntp_message_id']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
 <?		endif ?>
 <?	endforeach ?>
 	</ul>
 	<ul>
-		<li><a href="https://mail.hdm-stuttgart.de/" title="<?= ha($imap_messages) ?> ungelesene Nachrichten">HdM Mails <span class="count"><?= h($imap_messages) ?></span></a></li>
-		<li><a href="https://news.hdm-stuttgart.de/" title="<?= ha($nntp_messages) ?> ungelesene Nachrichten">Newsgroups <span class="count"><?= h($nntp_messages) ?></span></a></li>
+		<li class="mail"><a href="https://mail.hdm-stuttgart.de/">HdM Mails <span class="count"></span></a></li>
+		<li class="news"><a href="https://news.hdm-stuttgart.de/">Newsgroups <span class="count"></span></a></li>
 		<!--<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="0 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">0</span></a></li>-->
 	</ul>
+	<p class="empty">Keine ungelesenen Meldungen</p>
 	<script>
 		$(document).ready(function(){
+			
+			function update_message_counters(){
+				var tile = $('#official-news');
+				var mail_count = tile.find('> ul:first-of-type li.mail').length;
+				var news_count = tile.find('> ul:first-of-type li.news').length;
+				
+				tile.find('> ul:nth-of-type(2) > li.mail > a').attr('title', mail_count + ' ungelesene Nachrichten').find('span.count').text(mail_count);
+				tile.find('> ul:nth-of-type(2) > li.news > a').attr('title', news_count + ' ungelesene Nachrichten').find('span.count').text(news_count);
+				
+				if (mail_count == 0 && news_count == 0){
+					tile.find('> ul').hide().end().find('> p').show();
+				}
+			}
+			update_message_counters();
+			
 			$('#official-news > ul:first-of-type > li > a').click(function(){
 				var href = $(this).attr('href');
 				$.ajax(href + '.json', {dataType: 'json'}).done(function(data){
@@ -144,6 +160,7 @@ uasort($messages, function($a, $b){
 					$('#official-news > ul:first-of-type > li > a').filter(function(){
 						return $(this).attr('href') == href;
 					}).closest('li').remove();
+					update_message_counters();
 				});
 				return false;
 			});
