@@ -1,5 +1,7 @@
 <?php
 
+require_once(dirname(__FILE__) . '/../include/view_helpers.php');
+
 // Fetch and parse the Mensa RSS feed
 $rss = simplexml_load_file('http://www.studentenwerk-stuttgart.de/speiseangebot_rss');
 // Get the first (newest) news item. This should be the stuff for today.
@@ -29,7 +31,7 @@ ob_start();
 	<ul>
 <?	foreach($names as $name): ?>
 <?		$display_name = trim($xpath->evaluate('string(.)', $name)) ?>
-		<li><span title="<?= $display_name ?>"><?= $display_name ?></span></li>
+		<li><span title="<?= ha($display_name) ?>"><?= h($display_name) ?></span></li>
 <?	endforeach ?>
 	</ul>
 </article>

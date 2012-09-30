@@ -109,6 +109,16 @@ article#mensa ul > li { margin: 0.125em 0; }
 article#mensa ul > li > span { display: block; white-space: pre; overflow: hidden; text-overflow: ellipsis; }
 
 
+article#sbar {}
+article#sbar > ul { padding: 0; }
+article#sbar > ul > li { overflow: hidden; margin: 0.25em 0; padding: 0; }
+article#sbar > ul > li::before { content: none; }
+article#sbar > ul > li > span { float: left; }
+article#sbar > ul > li > ul { margin: 0 0 0 5.5em; padding: 0; }
+article#sbar > ul > li > ul > li { margin: 0 0 0.25em 0; padding: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; }
+article#sbar li li { /* font-size: 0.77em;  */}
+
+
 /* details overlay */
 .template { display: none; }
 div#details.inactive { display: none; }
