@@ -155,13 +155,12 @@ uasort($messages, function($a, $b){
 			});
 			$('#details > article > p.actions > a.read').live('click', function(){
 				var href = $(this).closest('article').data('href');
-				$.ajax(href + '.json', {type: 'POST', data: {mark_read: true}}).done(function(){
-					$('#details').addClass('inactive');
-					$('#official-news > ul:first-of-type > li > a').filter(function(){
-						return $(this).attr('href') == href;
-					}).closest('li').remove();
-					update_message_counters();
-				});
+				$.ajax(href + '.json', {type: 'POST', data: {mark_read: true}});
+				$('#details').addClass('inactive');
+				$('#official-news > ul:first-of-type > li > a').filter(function(){
+					return $(this).attr('href') == href;
+				}).closest('li').remove();
+				update_message_counters();
 				return false;
 			});
 
