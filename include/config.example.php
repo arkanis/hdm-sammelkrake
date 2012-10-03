@@ -42,6 +42,11 @@ $_CONFIG = array(
 	
 	'schedule' => array(
 		'url' => 'https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/wochenansicht',
+	),
+	
+	'ldap' => array(
+		'host' => 'ldap2.mi.hdm-stuttgart.de',
+		'dn' => 'uid=%s,ou=userlist,dc=hdm-stuttgart,dc=de'
 	)
 );
 

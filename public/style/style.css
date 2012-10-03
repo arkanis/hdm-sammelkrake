@@ -103,6 +103,23 @@ article#messi.loading > ul::before { content: 'Krake sammelt Kontakte…'; }
 article#messi.failed > ul::before { content: 'Sorry, die Krake hat gerade keine Lust. Maschienen machen manchmal komische Dinge. Bitte lad die Seite einfach noch mal neu…'; }
 
 
+article#kürzelkai {}
+article#kürzelkai input { position: absolute; top: 2px; right: 2px; width: 200px; margin: 0; padding: 2px; box-sizing: border-box; font-size: 1em;
+	background-color: hsla(0, 0%, 100%, 0.25); border-radius: 3px; border: none;
+	color: hsl(0, 0%, 90%); text-shadow: 1px 1px 1px black; }
+article#kürzelkai p { display: none; }
+article#kürzelkai.unused p.description { display: block; }
+article#kürzelkai.empty p.empty { display: block; font-size: 0.77em; margin: 7.5em 2em 0 2em; padding: 0; text-align: center; }
+article#kürzelkai ul { padding-left: 0; }
+article#kürzelkai ul li { display: block; white-space: pre; overflow: hidden; text-overflow: ellipsis; }
+article#kürzelkai ul li::before { content: none; }
+
+article#kürzelkai input { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+article#kürzelkai input::-webkit-input-placeholder { color: hsl(0, 0%, 90%); text-shadow: 1px 1px 1px black; }
+article#kürzelkai input:-moz-placeholder { color: hsl(0, 0%, 90%); text-shadow: 1px 1px 1px black; }
+article#kürzelkai input:-ms-input-placeholder { color: hsl(0, 0%, 90%); text-shadow: 1px 1px 1px black; }
+
+
 article#mensa {}
 article#mensa h2 > a { display: block; overflow: hidden; white-space: pre; text-overflow: ellipsis; }
 article#mensa ul > li { margin: 0.125em 0; }
