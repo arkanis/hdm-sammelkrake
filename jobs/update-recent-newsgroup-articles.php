@@ -1,6 +1,6 @@
 <?php
 
-const ROOT_PATH = '..';
+define('ROOT_PATH', dirname(__FILE__) . '/..');
 
 require_once(ROOT_PATH . '/include/nntp_connection.php');
 require_once(ROOT_PATH . '/include/mail_parser.php');
