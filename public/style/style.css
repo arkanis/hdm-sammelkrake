@@ -58,6 +58,7 @@ article#official-news ul:nth-of-type(2) li { display: inline; margin: 0 1em 0 0;
 article#official-news ul:nth-of-type(2) li::before { content: ''; }
 article#official-news p.empty { display: none; margin: 8em 2em 0 2em; padding: 0; text-align: center; font-size: 0.77em; }
 
+article#schedule p.empty { font-size: 0.77em; margin: 17em 2em 0 2em; padding: 0; text-align: center; }
 article#schedule table { table-layout: fixed; border-collapse: collapse; }
 article#schedule table tr > *:nth-child(1) { width: 35px; padding-right: 5px; }
 article#schedule table tr > *:nth-child(1n + 2) { width: 90px; }
