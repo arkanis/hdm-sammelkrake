@@ -13,22 +13,25 @@ $nntp->authenticate($_CONFIG['nntp']['prefetch']['user'], $_CONFIG['nntp']['pref
 $start_date = date('Ymd His', time() - $_CONFIG['nntp']['max_age']);
 $nntp->command('newnews ' . join(',', $_CONFIG['nntp']['groups']) . ' ' . $start_date, 230);
 $new_message_ids = $nntp->get_text_response();
+$messages = array();
 
 // Query the dates of all new messages
-foreach(explode("\n", $new_message_ids) as $id){
-	$nntp->command('hdr subject ' . $id, 225);
-	list(,$subject) = explode(' ', $nntp->get_text_response(), 2);
-	$nntp->command('hdr date ' . $id, 225);
-	list(,$date) = explode(' ', $nntp->get_text_response(), 2);
-	$nntp->command('hdr from ' . $id, 225);
-	list(,$from) = explode(' ', $nntp->get_text_response(), 2);
-	
-	$messages[] = array(
-		'date' => MailParser::parse_date($date),
-		'subject' => MailParser::decode_words($subject),
-		'from' => reset(MailParser::split_from_header(MailParser::decode_words($from))),
-		'nntp_message_id' => $id
-	);
+if ( ! empty($new_message_ids) ){
+	foreach(explode("\n", $new_message_ids) as $id){
+		$nntp->command('hdr subject ' . $id, 225);
+		list(,$subject) = explode(' ', $nntp->get_text_response(), 2);
+		$nntp->command('hdr date ' . $id, 225);
+		list(,$date) = explode(' ', $nntp->get_text_response(), 2);
+		$nntp->command('hdr from ' . $id, 225);
+		list(,$from) = explode(' ', $nntp->get_text_response(), 2);
+		
+		$messages[] = array(
+			'date' => MailParser::parse_date($date),
+			'subject' => MailParser::decode_words($subject),
+			'from' => reset(MailParser::split_from_header(MailParser::decode_words($from))),
+			'nntp_message_id' => $id
+		);
+	}
 }
 $nntp->close();
 
