@@ -30,7 +30,7 @@ class MailParser
 						return 'append-content-line';
 					}
 				} else if ( isset($headers['content-disposition']) ) {
-					list($disposition_type, $disposition_parms) = self::parse_type_params_header($headers['content-disposition']);
+					list($disposition_type, $disposition_parms) = MailParser::parse_type_params_header($headers['content-disposition']);
 					if ( isset($content_type_params['name']) )
 						$name = $content_type_params['name'];
 					if ( isset($disposition_parms['filename']) )
