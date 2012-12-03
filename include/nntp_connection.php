@@ -272,7 +272,7 @@ class NntpConnection
 				foreach($this->sensitive_data as $piece)
 					$data = str_replace($piece, '[removed]', $data);
 		}
-		file_put_contents($this->log_file, $data, FILE_APPEND);
+		file_put_contents($this->log_file, $data . "\n", FILE_APPEND);
 	}
 }
 
