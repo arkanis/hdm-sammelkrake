@@ -26,7 +26,7 @@ ob_start();
 
 ?>
 <article id="mensa" class="misc changing" data-width="2" data-height="1">
-	<h2 title="<?= $item->title ?>"><a href="<?= $item->link ?>">Mensa <?= $item->title ?></a></h2>
+	<h2 title="<?= $item->title ?>"><a href="http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot">Mensa <?= $item->title ?></a></h2>
 	
 	<ul>
 <?	foreach($names as $name): ?>
