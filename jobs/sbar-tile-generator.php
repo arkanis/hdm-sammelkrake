@@ -97,7 +97,7 @@ class RecursiveDOMIterator implements RecursiveIterator
 // The SBar page contains stange HTML. Therefore load it with the DOM
 // parser that can handle broken HTML.
 $dom = new DOMDocument();
-@$dom->loadHTMLFile('http://www.s-bar.de/s-bar-hdm/speiseplan.html');
+@$dom->loadHTMLFile('http://www.s-bar.de/eat-n-talk-hdm/speiseplan.html');
 $xpath = new DOMXPath($dom);
 
 /*
@@ -155,7 +155,7 @@ ob_start();
 
 ?>
 <article id="sbar" class="misc changing" data-width="2" data-height="1">
-	<h2><a href="http://www.s-bar.de/s-bar-hdm/speiseplan.html">S-Bar Wochenkarte</a></h2>
+	<h2><a href="http://www.s-bar.de/eat-n-talk-hdm/speiseplan.html">S-Bar Wochenkarte</a></h2>
 	
 	<ul>
 <?		foreach($week_plan as $day => $dishes): ?>
