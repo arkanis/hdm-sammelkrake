@@ -8,7 +8,6 @@ require_once(ROOT_PATH . '/include/config.php');
 
 
 $nntp = new NntpConnection($_CONFIG['nntp']['url'], $_CONFIG['nntp']['timeout'], $_CONFIG['nntp']['options']);
-$nntp->authenticate($_CONFIG['nntp']['prefetch']['user'], $_CONFIG['nntp']['prefetch']['password']);
 
 $start_date = date('Ymd His', time() - $_CONFIG['nntp']['max_age']);
 $nntp->command('newnews ' . join(',', $_CONFIG['nntp']['groups']) . ' ' . $start_date, 230);
