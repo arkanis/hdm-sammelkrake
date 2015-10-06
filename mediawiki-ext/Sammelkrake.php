@@ -1,7 +1,7 @@
 <?php
 
 /**
- * HdM Sammelkrake tile export extention for MediaWiki v1 by Stephan Soller
+ * HdM Sammelkrake tile export extention for MediaWiki v2 by Stephan Soller
  * 
  * This extention allows to maintain tiles of the Sammelkrake via a MediaWiki. That's useful for content that doesn't
  * change that often. Whenever a page is saved and its title starts with `$wgSammelkrakePagePrefix` this extention
@@ -14,11 +14,16 @@
  * `$wgSammelkrakeTileDir`: The directory the tiles are written to.
  * `$wgSammelkrakeTileSuffix`: A string that is appended to each tile written by the extention. Is primarily used to avoid overwriting
  *   standard tiles by adding a unique part to the filename, e.g. the `.wiki` in `.wiki.php`.
+ * 
+ * # Version history
+ * 
+ * v1: Initial release
+ * v2: Updated extraction for changed MediaWiki HTML for headlines (Stephan, 2015-10-06)
  */
 
 // Default configuration
 $wgSammelkrakePagePrefix = 'Sammelkrake/';
-$wgSammelkrakeTileDir = '/tmp/sammelkrake/tiles';
+$wgSammelkrakeTileDir = '/var/www/hdm-sammelkrake/tiles';
 $wgSammelkrakeTileSuffix = '.wiki.php';
 
 $wgExtensionCredits['other'][] = array(
@@ -67,7 +72,7 @@ function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $m
 		if ($elem->tagName == 'h2') {
 			// We found a heading, extract
 			// The HTML code of all following elements is added to the content until we find the next heading
-			$heading_content_node = $xpath->query('span[2]', $elem)->item(0);
+			$heading_content_node = $xpath->query('span[1]', $elem)->item(0);
 			$name = trim($xpath->evaluate('string(.)', $heading_content_node));
 			$sanitized_name = sammelkrakeSanitzieName($name);
 			
@@ -104,7 +109,7 @@ function sammelkrakeOnArticleSaveComplete(&$article, &$user, $text, $summary, $m
 	
 	foreach($tiles as $index => $tile){
 		$html = $tile['start_tag'] .
-			'<h2>' . utf8_decode($tile['title']) . '</h2>' .
+			'<h2>' . utf8_decode($tile['name']) . '</h2>' .
 			utf8_decode($tile['content']) .
 		'</article>';
 		$filename = sprintf('%s/%s-%02d-%s%s', $wgSammelkrakeTileDir, $page_rest_title, $index + 1, $sanitized_name, $wgSammelkrakeTileSuffix);
