@@ -36,7 +36,9 @@ $context = stream_context_create(array(
 		'content' => http_build_query(array('id' => $message_ids, 'group' => $_CONFIG['nntp']['groups']))
 	)
 ));
-$json_tracker_response = file_get_contents('https://news.hdm-stuttgart.de/has_read', false, $context);
+// No more newsgroups
+//$json_tracker_response = file_get_contents('https://news.hdm-stuttgart.de/has_read', false, $context);
+$json_tracker_response = false;
 if ($json_tracker_response){
 	$read = json_decode($json_tracker_response, true);
 	$messages = array_filter($messages, function($msg) use($read) {
