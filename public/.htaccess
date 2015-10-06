@@ -1,8 +1,8 @@
-AuthType	Basic
-AuthName	"Bitte melde dich mit deinem HdM-Account an"
-AuthBasicProvider	file
-AuthUserFile	/home/steven/projects/hdm-sammelkrake/local-passwd
-Require	valid-user
+AuthType        Basic
+AuthName        "Bitte melde dich mit deinem HdM-Account an damit die Sammelkrake arbeiten kann."
+AuthBasicProvider       ldap
+AuthLDAPURL     ldap://ldap1.mi.hdm-stuttgart.de:389/ou=userlist,dc=hdm-stuttgart,dc=de?uid?sub?(objectClass=*)
+Require         valid-user
 
 RewriteEngine	on
 RewriteRule	^messi\.json$	messi\.json\.php	[last,qsappend,B]
@@ -10,3 +10,5 @@ RewriteRule	^mail/([^./]+)\.json$	mail\.json\.php?id=$1	[last,qsappend,B]
 RewriteRule	^newsgroup/([^/]+)\.json$	newsgroup\.json\.php?id=$1	[last,qsappend,B]
 RewriteRule	^ldap\.json$	ldap\.json\.php	[last,qsappend,B]
 RewriteRule	^schedule\.html$	schedule\.html\.php	[last,qsappend,B]
+
+php_flag short_open_tag on
