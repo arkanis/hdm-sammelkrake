@@ -40,9 +40,9 @@ $names = $xpath->query('//tbody/tr/td[not(@class)]');
 
 <h2><a href="<?= $item->link ?>"><?= $item->title ?></a></h2>
 <ul>
-<? foreach($names as $name): ?>
+<?php foreach($names as $name): ?>
 	<li><?= trim( $xpath->evaluate('string(.)', $name) ) ?></li>
-<? endforeach ?>
+<?php endforeach ?>
 </ul>
 
 </body>
