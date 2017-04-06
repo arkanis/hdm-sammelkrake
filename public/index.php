@@ -1,5 +1,11 @@
 <?php
 
+if ( ! isset($_SERVER['PHP_AUTH_USER']) ) {
+	header('WWW-Authenticate: Basic realm="Sammelkrake"');
+	header('HTTP/1.0 401 Unauthorized');
+	die("Bitte mit deinem HdM-Account anmelden");
+}
+
 const ROOT_PATH = '..';
 require_once(ROOT_PATH . '/include/view_helpers.php');
 
@@ -38,9 +44,9 @@ require_once(ROOT_PATH . '/include/view_helpers.php');
 
 <section id="tiles">
 
-<? foreach( glob('../tiles/*.php') as $tile ): ?>
-<?	include($tile) ?> 
-<? endforeach ?>
+<?php foreach( glob('../tiles/*.php') as $tile ): ?>
+<?php	include($tile) ?> 
+<?php endforeach ?>
 
 </section>
 
