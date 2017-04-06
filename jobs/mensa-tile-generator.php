@@ -29,10 +29,10 @@ ob_start();
 	<h2 title="<?= $item->title ?>"><a href="http://www.studentenwerk-stuttgart.de/gastronomie/speiseangebot">Mensa <?= $item->title ?></a></h2>
 	
 	<ul>
-<?	foreach($names as $name): ?>
-<?		$display_name = trim($xpath->evaluate('string(.)', $name)) ?>
+<?php foreach($names as $name): ?>
+<?php	$display_name = trim($xpath->evaluate('string(.)', $name)) ?>
 		<li><span title="<?= ha($display_name) ?>"><?= h($display_name) ?></span></li>
-<?	endforeach ?>
+<?php endforeach ?>
 	</ul>
 </article>
 <?php

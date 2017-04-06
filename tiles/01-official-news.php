@@ -98,18 +98,18 @@ uasort($messages, function($a, $b){
 <article id="official-news" class="official changing" data-width="2" data-height="1">
 	<h2>Wichtige Meldungen</h2>
 	<ul>
-<?	foreach($messages as $message): ?>
-<?		if ( isset($message['imap_message_num']) ): ?>
+<?php foreach($messages as $message): ?>
+<?php	if ( isset($message['imap_message_num']) ): ?>
 		<li class="mail"><a href="mail/<?= urlencode($message['imap_message_num']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
-<?		else: ?>
+<?php	else: ?>
 		<li class="news"><a href="newsgroup/<?= urlencode($message['nntp_message_id']) ?>" title="<?= ha($message['subject']) ?>, am <?= date('d.m. G:i', $message['date']) ?> Uhr von <?= ha($message['from']) ?>"><?= h($message['subject']) ?></a></li>
-<?		endif ?>
-<?	endforeach ?>
+<?php	endif ?>
+<?php endforeach ?>
 	</ul>
 	<ul>
 		<li class="mail"><a href="https://ox.hdm-stuttgart.de/">HdM Mails <span class="count"></span></a></li>
-<?php#		<li class="news"><a href="https://news.hdm-stuttgart.de/">Newsgroups <span class="count"></span></a></li> ?>
-<?php#		<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="0 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">0</span></a></li> ?>
+<?php//		<li class="news"><a href="https://news.hdm-stuttgart.de/">Newsgroups <span class="count"></span></a></li> ?>
+<?php//		<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="0 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">0</span></a></li> ?>
 	</ul>
 	<p class="empty">Keine ungelesenen Meldungen</p>
 	<script>

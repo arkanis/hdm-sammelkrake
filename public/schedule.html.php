@@ -59,29 +59,29 @@ for($row_idx = 1; $row_idx < count($schedule->tr); $row_idx++){
 		<th>Freitag</th>
 		<th>Samstag</th>
 	</tr>
-<?	foreach($blocks as $block): ?>
+<?php foreach($blocks as $block): ?>
 	<tr>
 		<th><?= reset(explode(' ', $block['time'])) ?></th>
-<?		for($i = 1; $i <= 6; $i++): ?>
-<?			$lectures = $block[$i] ?>
-<?			if ( count($lectures) == 1 ): ?>
-<?// class "changed" to highlight moved lectures ?>
+<?php	for($i = 1; $i <= 6; $i++): ?>
+<?php		$lectures = $block[$i] ?>
+<?php		if ( count($lectures) == 1 ): ?>
+<?php// class "changed" to highlight moved lectures ?>
 			<td>
-<?			foreach($lectures as $lecture): ?>
+<?php		foreach($lectures as $lecture): ?>
 				<a href="<?= $_CONFIG['schedule']['url'] . '/' . $lecture['url'] ?>" title="<?= $lecture['name'] ?>"><?= $lecture['name'] ?></a>
 				<small>in <?= $lecture['room'] ?></small>
-<?			endforeach ?>
+<?php		endforeach ?>
 			</td>
-<?			elseif ( count($lectures) > 1 ): ?>
+<?php		elseif ( count($lectures) > 1 ): ?>
 			<td class="conflict">
-<?			foreach($lectures as $lecture): ?>
+<?php		foreach($lectures as $lecture): ?>
 				<a href="<?= $_CONFIG['schedule']['url'] . '/' . $lecture['url'] ?>" title="<?= $lecture['name'] ?> in <?= $lecture['room'] ?>"><?= $lecture['room'] ?>: <?= $lecture['name'] ?></a>
-<?			endforeach ?>
+<?php		endforeach ?>
 			</td>
-<?			else: ?>
+<?php		else: ?>
 			<td></td>
-<?			endif ?>
-<?		endfor ?>
+<?php		endif ?>
+<?php	endfor ?>
 	</tr>
-<?	endforeach ?>
+<?php endforeach ?>
 </table>

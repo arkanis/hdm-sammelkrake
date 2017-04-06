@@ -158,16 +158,16 @@ ob_start();
 	<h2><a href="http://www.s-bar.de/eat-n-talk-hdm/speiseplan.html">S-Bar Wochenkarte</a></h2>
 	
 	<ul>
-<?		foreach($week_plan as $day => $dishes): ?>
+<?php	foreach($week_plan as $day => $dishes): ?>
 		<li>
 			<span title="<?= ha($day) ?>"><?= h($day) ?></span>
 			<ul>
-<?				foreach($dishes as $dish): ?>
+<?php			foreach($dishes as $dish): ?>
 				<li title="<?= ha($dish) ?>"><?= h($dish) ?></li>
-<?				endforeach ?>
+<?php			endforeach ?>
 			</ul>
 		</li>
-<?		endforeach ?>
+<?php	endforeach ?>
 	</ul>
 </article>
 <?php
