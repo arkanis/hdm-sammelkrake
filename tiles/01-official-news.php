@@ -108,8 +108,8 @@ uasort($messages, function($a, $b){
 	</ul>
 	<ul>
 		<li class="mail"><a href="https://ox.hdm-stuttgart.de/">HdM Mails <span class="count"></span></a></li>
-<?php//		<li class="news"><a href="https://news.hdm-stuttgart.de/">Newsgroups <span class="count"></span></a></li> ?>
-<?php//		<li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="0 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">0</span></a></li> ?>
+<?php	// <li class="news"><a href="https://news.hdm-stuttgart.de/">Newsgroups <span class="count"></span></a></li> ?>
+<?php	// <li><a href="https://www.hdm-stuttgart.de/studenten/stundenplan/pers_stundenplan/stundenplanfunktionen/meldungen" title="0 Meldungen seit letzter Vorlesung">Persönlicher Stundenplan <span class="count">0</span></a></li> ?>
 	</ul>
 	<p class="empty">Keine ungelesenen Meldungen</p>
 	<script>

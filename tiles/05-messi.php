@@ -1,6 +1,6 @@
 <article id="messi" class="social changing loading" data-width="2" data-height="2">
 	<script>
-		$.ajax('messi.json').done(function(data){
+		$.ajax('messi.json.php').done(function(data){
 			$(document).ready(function(){
 				function build_contact_list(data, hide_offline_contacts){
 					var group_list = $('<ul>');
